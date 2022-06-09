@@ -1,9 +1,15 @@
-# CKAN theme for BPA
+# ckanext-bpaschema - Data schemas for BPA
 
-This CKAN extension will contain customisations and styling for data.bioplatforms.com including:
+This CKAN extension contain customisations for data.bioplatforms.com including:
 
-* stylesheet (to be similar to data.wa.gov.au, based on readysteadygov template)
 * custom metadata schema (to be used with ckanext-scheming)
-* custom templates (e.g. geospatial coverate preview, page header)
 
-Credit: based upon the data.wa.gov.au theme
+## Credit 
+
+Based upon the data.wa.gov.au theme
+
+Forked from ckanext-bpaschema
+
+## License
+
+[AGPL](https://www.gnu.org/licenses/agpl-3.0.en.html)
