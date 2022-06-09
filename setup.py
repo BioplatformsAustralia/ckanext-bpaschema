@@ -1,48 +1,46 @@
 #!/usr/bin/env/python
-from setuptools import setup
 
-install_requires = ["pandas==0.24.2"]
+# -*- coding: utf-8 -*-
+# Always prefer setuptools over distutils
+from setuptools import setup, find_packages
+from codecs import open  # To use a consistent encoding
+from os import path
+
+here = path.abspath(path.dirname(__file__))
+
+# Get the long description from the relevant file
+with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
+install_requires = []
 
 setup(
-    name="ckanext-bpatheme",
-    version="3.1.61",
-    description="CKAN Theme for the Bioplatforms Australia Data Portal",
+    name="ckanext-bpaschema",
+    version="4.0.0",
+    description='''CKAN extension to hold schemas for the Bioplatforms Australian Data Portal''',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     license="AGPL3",
     author="Bioplatforms Australia",
     author_email="help@bioplatforms.com",
-    url="https://github.com/BioplatformsAustralia/ckanext-bpatheme",
+    url="https://github.com/BioplatformsAustralia/ckanext-bpaschema",
     namespace_packages=["ckanext"],
-    packages=["ckanext.bpatheme"],
+    packages=["ckanext.bpaschema"],
     install_requires=install_requires,
     zip_safe=False,
     include_package_data=True,
-    package_dir={"ckanext.bpatheme": "ckanext/bpatheme"},
+    package_dir={"ckanext.bpaschema": "ckanext/bpaschema"},
     package_data={
-        "ckanext.bpatheme": [
+        "ckanext.bpaschema": [
             "*.json",
-            "fanstatic/*.js",
-            "fanstatic/styles/*.css",
-            "fanstatic/styles/*.scss",
-            "templates/*.html",
-            "templates/*/*.html",
-            "templates/*/*/*.html",
-            "templates/*/*/*/*.html",
-            "templates/*.txt",
-            "static/datacats/*.png",
-            "static/fonts/arial/*.eot",
-            "static/fonts/arial/*.svg",
-            "static/fonts/arial/*.woff",
-            "static/fonts/arial/*.woff2",
-            "static/fonts/arial/*.ttf",
-            "static/*.png",
-            "static/*.ico",
-            "static/bootstraptable/*.js",
-            "static/bootstraptable/*.css",
-            "static/*.webp",
+
         ]
     },
     entry_points="""
         [ckan.plugins]
-        bpa_theme = ckanext.bpatheme.plugins:CustomTheme
+        bpaschema=ckanext.bpaschema.plugin:BpaschemaPlugin
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
     """,
 )
