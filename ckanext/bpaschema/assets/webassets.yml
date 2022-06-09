@@ -1,0 +1,14 @@
+# bpaschema-js:
+#   filter: rjsmin
+#   output: ckanext-bpaschema/%(version)s-bpaschema.js
+#   contents:
+#     - js/bpaschema.js
+#   extra:
+#     preload:
+#       - base/main
+
+# bpaschema-css:
+#   filter: cssrewrite
+#   output: ckanext-bpaschema/%(version)s-bpaschema.css
+#   contents:
+#     - css/bpaschema.css
