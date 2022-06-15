@@ -2,7 +2,7 @@
 .idea/
 ckanext/.DS_Store
 *.pyc
-ckanext_bpatheme.egg-info/*
+ckanext_bpaschema.egg-info/*
 build/*
 dist/*
 *.css.map
