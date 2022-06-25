@@ -514,6 +514,10 @@
             "label": "archive_type"
         },
         {
+            "field_name": "experiment_run_name",
+            "label": "experiment_run_name"
+        },
+        {
             "field_name": "facility_id",
             "label": "facility_id"
         },
@@ -524,6 +528,10 @@
         {
             "field_name": "resource_type",
             "label": "resource_type"
+        },
+        {
+            "field_name": "run_number",
+            "label": "run_number"
         },
         {
             "field_name": "sample_id",
