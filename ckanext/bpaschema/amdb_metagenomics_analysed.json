@@ -283,6 +283,16 @@
             "label": "beta_epi_car_meth"
         },
         {
+            "field_name": "bicarbonate",
+            "form_placeholder": "",
+            "label": "bicarbonate (mg/L)"
+        },
+        {
+            "field_name": "bicarbonate_meth",
+            "form_placeholder": "",
+            "label": "bicarbonate_meth"
+        },
+        {
             "field_name": "bioplatforms_project",
             "form_placeholder": "",
             "label": "bioplatforms_project"
@@ -343,14 +353,14 @@
             "label": "cantha_meth"
         },
         {
-            "field_name": "carbonate_bicarbonate",
+            "field_name": "carbonate",
             "form_placeholder": "",
-            "label": "carbonate_bicarbonate (mg/L)"
+            "label": "carbonate (mg/L)"
         },
         {
-            "field_name": "carbonate_bicarbonate_meth",
+            "field_name": "carbonate_meth",
             "form_placeholder": "",
-            "label": "carbonate_bicarbonate_meth"
+            "label": "carbonate_meth"
         },
         {
             "field_name": "cast_id",
@@ -2378,14 +2388,14 @@
             "label": "sulphur_meth"
         },
         {
-            "field_name": "synecochoccus",
+            "field_name": "synechococcus",
             "form_placeholder": "",
-            "label": "synecochoccus (cells/mL)"
+            "label": "synechococcus (cells/mL)"
         },
         {
-            "field_name": "synecochoccus_meth",
+            "field_name": "synechococcus_meth",
             "form_placeholder": "",
-            "label": "synecochoccus_meth"
+            "label": "synechococcus_meth"
         },
         {
             "field_name": "synonyms",
