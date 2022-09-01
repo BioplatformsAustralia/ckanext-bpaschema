@@ -1523,11 +1523,6 @@
             "label": "myxo_meth"
         },
         {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "name"
-        },
-        {
             "field_name": "neo",
             "form_placeholder": "",
             "label": "neo (mg/m3)"
@@ -1606,11 +1601,6 @@
             "field_name": "nitrite_meth",
             "form_placeholder": "",
             "label": "nitrite_meth"
-        },
-        {
-            "field_name": "notes",
-            "form_placeholder": "",
-            "label": "notes"
         },
         {
             "field_name": "npic",

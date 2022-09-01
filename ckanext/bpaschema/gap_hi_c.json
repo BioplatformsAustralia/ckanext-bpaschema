@@ -303,16 +303,6 @@
             "label": "nagoya_protocol_permit_number"
         },
         {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "name"
-        },
-        {
-            "field_name": "notes",
-            "form_placeholder": "",
-            "label": "notes"
-        },
-        {
             "field_name": "population_group",
             "form_placeholder": "",
             "label": "population_group"
@@ -498,6 +488,10 @@
             "field_name": "format",
             "label": "Format",
             "preset": "resource_format_autocomplete"
+        },
+        {
+            "field_name": "facility_id",
+            "label": "facility_id"
         },
         {
             "field_name": "flow_cell_id",

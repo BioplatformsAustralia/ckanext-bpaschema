@@ -313,19 +313,9 @@
             "label": "nagoya_protocol_permit_number"
         },
         {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "name"
-        },
-        {
             "field_name": "nanopore_software_version",
             "form_placeholder": "",
             "label": "nanopore_software_version"
-        },
-        {
-            "field_name": "notes",
-            "form_placeholder": "",
-            "label": "notes"
         },
         {
             "field_name": "population_group",

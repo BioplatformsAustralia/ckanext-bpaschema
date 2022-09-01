@@ -123,16 +123,6 @@
             "label": "library_id"
         },
         {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "name"
-        },
-        {
-            "field_name": "notes",
-            "form_placeholder": "",
-            "label": "notes"
-        },
-        {
             "field_name": "official_variety_name",
             "form_placeholder": "",
             "label": "official_variety_name"

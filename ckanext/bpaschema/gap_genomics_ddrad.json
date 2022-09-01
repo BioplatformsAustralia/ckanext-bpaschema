@@ -313,16 +313,6 @@
             "label": "nagoya_protocol_permit_number"
         },
         {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "name"
-        },
-        {
-            "field_name": "notes",
-            "form_placeholder": "",
-            "label": "notes"
-        },
-        {
             "field_name": "plate_name",
             "form_placeholder": "",
             "label": "plate_name"
@@ -366,6 +356,11 @@
             "field_name": "scientific_name",
             "form_placeholder": "",
             "label": "scientific_name"
+        },
+        {
+            "field_name": "scientific_name_notes",
+            "form_placeholder": "",
+            "label": "scientific_name_notes"
         },
         {
             "field_name": "sequence_length",

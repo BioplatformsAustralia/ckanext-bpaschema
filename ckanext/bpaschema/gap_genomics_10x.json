@@ -303,16 +303,6 @@
             "label": "nagoya_protocol_permit_number"
         },
         {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "name"
-        },
-        {
-            "field_name": "notes",
-            "form_placeholder": "",
-            "label": "notes"
-        },
-        {
             "field_name": "population_group",
             "form_placeholder": "",
             "label": "population_group"

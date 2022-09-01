@@ -258,6 +258,16 @@
             "label": "beta_epi_car_meth"
         },
         {
+            "field_name": "bicarbonate",
+            "form_placeholder": "",
+            "label": "bicarbonate (mg/L)"
+        },
+        {
+            "field_name": "bicarbonate_meth",
+            "form_placeholder": "",
+            "label": "bicarbonate_meth"
+        },
+        {
             "field_name": "biotic_relationship",
             "form_placeholder": "",
             "label": "biotic_relationship"
@@ -313,14 +323,14 @@
             "label": "cantha_meth"
         },
         {
-            "field_name": "carbonate_bicarbonate",
+            "field_name": "carbonate",
             "form_placeholder": "",
-            "label": "carbonate_bicarbonate (mg/L)"
+            "label": "carbonate (mg/L)"
         },
         {
-            "field_name": "carbonate_bicarbonate_meth",
+            "field_name": "carbonate_meth",
             "form_placeholder": "",
-            "label": "carbonate_bicarbonate_meth"
+            "label": "carbonate_meth"
         },
         {
             "field_name": "cast_id",
@@ -491,6 +501,11 @@
             "field_name": "collection_date",
             "form_placeholder": "",
             "label": "collection_date"
+        },
+        {
+            "field_name": "collection_permit",
+            "form_placeholder": "",
+            "label": "collection_permit"
         },
         {
             "field_name": "color",
@@ -1153,6 +1168,16 @@
             "label": "host_type"
         },
         {
+            "field_name": "hyperspectral_analysis",
+            "form_placeholder": "",
+            "label": "hyperspectral_analysis"
+        },
+        {
+            "field_name": "hyperspectral_analysis_meth",
+            "form_placeholder": "",
+            "label": "hyperspectral_analysis_meth"
+        },
+        {
             "field_name": "icp_te_boron",
             "form_placeholder": "",
             "label": "icp_te_boron (mg/L)"
@@ -1473,11 +1498,6 @@
             "label": "myxo_meth"
         },
         {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "name"
-        },
-        {
             "field_name": "ncbi_bioproject_accession",
             "form_placeholder": "",
             "label": "ncbi_bioproject_accession"
@@ -1566,11 +1586,6 @@
             "field_name": "nitrite_meth",
             "form_placeholder": "",
             "label": "nitrite_meth"
-        },
-        {
-            "field_name": "notes",
-            "form_placeholder": "",
-            "label": "notes"
         },
         {
             "field_name": "npic",
@@ -2343,14 +2358,14 @@
             "label": "sulphur_meth"
         },
         {
-            "field_name": "synecochoccus",
+            "field_name": "synechococcus",
             "form_placeholder": "",
-            "label": "synecochoccus (cells/mL)"
+            "label": "synechococcus (cells/mL)"
         },
         {
-            "field_name": "synecochoccus_meth",
+            "field_name": "synechococcus_meth",
             "form_placeholder": "",
-            "label": "synecochoccus_meth"
+            "label": "synechococcus_meth"
         },
         {
             "field_name": "synonyms",

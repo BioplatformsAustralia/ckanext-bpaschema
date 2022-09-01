@@ -243,16 +243,6 @@
             "label": "library_construction_protocol"
         },
         {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "name"
-        },
-        {
-            "field_name": "notes",
-            "form_placeholder": "",
-            "label": "notes"
-        },
-        {
             "field_name": "omics",
             "form_placeholder": "",
             "label": "omics"

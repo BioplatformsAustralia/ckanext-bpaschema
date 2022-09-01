@@ -203,19 +203,9 @@
             "label": "n50"
         },
         {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "name"
-        },
-        {
             "field_name": "no_scaffolds",
             "form_placeholder": "",
             "label": "no_scaffolds"
-        },
-        {
-            "field_name": "notes",
-            "form_placeholder": "",
-            "label": "notes"
         },
         {
             "field_name": "polishing_scaffolding_data",
