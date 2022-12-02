@@ -278,6 +278,21 @@
             "label": "bicarbonate_meth"
         },
         {
+            "field_name": "bioplatforms_dataset_id",
+            "form_placeholder": "",
+            "label": "bioplatforms_dataset_id"
+        },
+        {
+            "field_name": "bioplatforms_project",
+            "form_placeholder": "",
+            "label": "bioplatforms_project"
+        },
+        {
+            "field_name": "bioplatforms_project_code",
+            "form_placeholder": "",
+            "label": "bioplatforms_project_code"
+        },
+        {
             "field_name": "biotic_relationship",
             "form_placeholder": "",
             "label": "biotic_relationship"
@@ -1516,6 +1531,16 @@
             "field_name": "myxo_meth",
             "form_placeholder": "",
             "label": "myxo_meth"
+        },
+        {
+            "field_name": "ncbi_bioproject_accession_number",
+            "form_placeholder": "",
+            "label": "ncbi_bioproject_accession_number"
+        },
+        {
+            "field_name": "ncbi_biosample_accession_number",
+            "form_placeholder": "",
+            "label": "ncbi_biosample_accession_number"
         },
         {
             "field_name": "neo",
