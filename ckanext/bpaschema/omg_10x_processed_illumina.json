@@ -88,11 +88,6 @@
             "label": "access_rights"
         },
         {
-            "field_name": "ala_species_name",
-            "form_placeholder": "",
-            "label": "ala_species_name"
-        },
-        {
             "field_name": "ala_specimen_url",
             "form_placeholder": "",
             "label": "ala_specimen_url"
@@ -418,11 +413,6 @@
             "label": "life_stage"
         },
         {
-            "field_name": "location_generalisation",
-            "form_placeholder": "",
-            "label": "location_generalisation"
-        },
-        {
             "field_name": "location_text",
             "form_placeholder": "",
             "label": "location_text"
@@ -501,11 +491,6 @@
             "field_name": "species",
             "form_placeholder": "",
             "label": "species"
-        },
-        {
-            "field_name": "species_name",
-            "form_placeholder": "",
-            "label": "species_name"
         },
         {
             "field_name": "state_or_region",
