@@ -618,6 +618,11 @@
             "label": "database_schema_definitions_url"
         },
         {
+            "field_name": "dataset_id",
+            "form_placeholder": "",
+            "label": "dataset_id"
+        },
+        {
             "field_name": "dataset_url",
             "form_placeholder": "",
             "label": "dataset_url"
