@@ -338,6 +338,11 @@
             "label": "habitat"
         },
         {
+            "field_name": "i5_index_reverse_complement",
+            "form_placeholder": "",
+            "label": "i5_index_reverse_complement"
+        },
+        {
             "field_name": "identified_by",
             "form_placeholder": "",
             "label": "identified_by"
@@ -656,6 +661,11 @@
             "field_name": "type_status",
             "form_placeholder": "",
             "label": "type_status"
+        },
+        {
+            "field_name": "voucher_or_tissue",
+            "form_placeholder": "",
+            "label": "voucher_or_tissue"
         },
         {
             "field_name": "voucher_or_tissue_number",
