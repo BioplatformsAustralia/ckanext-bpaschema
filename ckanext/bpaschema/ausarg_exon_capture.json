@@ -278,9 +278,19 @@
             "label": "family"
         },
         {
+            "field_name": "fast5_compression",
+            "form_placeholder": "",
+            "label": "fast5_compression"
+        },
+        {
             "field_name": "file_type",
             "form_placeholder": "",
             "label": "file_type"
+        },
+        {
+            "field_name": "filename",
+            "form_placeholder": "",
+            "label": "filename"
         },
         {
             "field_name": "flowcell_id",
@@ -348,14 +358,24 @@
             "label": "library_id"
         },
         {
-            "field_name": "library_index_seq_p5",
+            "field_name": "library_index_id",
             "form_placeholder": "",
-            "label": "library_index_seq_p5"
+            "label": "library_index_id"
         },
         {
-            "field_name": "library_index_sequence",
+            "field_name": "library_index_id_dual",
             "form_placeholder": "",
-            "label": "library_index_sequence"
+            "label": "library_index_id_dual"
+        },
+        {
+            "field_name": "library_index_seq",
+            "form_placeholder": "",
+            "label": "library_index_seq"
+        },
+        {
+            "field_name": "library_index_seq_dual",
+            "form_placeholder": "",
+            "label": "library_index_seq_dual"
         },
         {
             "field_name": "library_layout",
@@ -378,9 +398,9 @@
             "label": "library_oligo_sequence"
         },
         {
-            "field_name": "library_oligo_sequence_p5",
+            "field_name": "library_oligo_sequence_dual",
             "form_placeholder": "",
-            "label": "library_oligo_sequence_p5"
+            "label": "library_oligo_sequence_dual"
         },
         {
             "field_name": "library_pcr_cycles",
@@ -473,6 +493,11 @@
             "label": "method_of_determination"
         },
         {
+            "field_name": "model_base_caller",
+            "form_placeholder": "",
+            "label": "model_base_caller"
+        },
+        {
             "field_name": "movie_length",
             "form_placeholder": "",
             "label": "movie_length"
@@ -486,36 +511,6 @@
             "field_name": "order",
             "form_placeholder": "",
             "label": "order"
-        },
-        {
-            "field_name": "p5_library_index_id",
-            "form_placeholder": "",
-            "label": "p5_library_index_id"
-        },
-        {
-            "field_name": "p5_library_index_sequence",
-            "form_placeholder": "",
-            "label": "p5_library_index_sequence"
-        },
-        {
-            "field_name": "p5_library_oligo_sequence",
-            "form_placeholder": "",
-            "label": "p5_library_oligo_sequence"
-        },
-        {
-            "field_name": "p7_library_index_id",
-            "form_placeholder": "",
-            "label": "p7_library_index_id"
-        },
-        {
-            "field_name": "p7_library_index_sequence",
-            "form_placeholder": "",
-            "label": "p7_library_index_sequence"
-        },
-        {
-            "field_name": "p7_library_oligo_sequence",
-            "form_placeholder": "",
-            "label": "p7_library_oligo_sequence"
         },
         {
             "field_name": "phenotypic_sex",
