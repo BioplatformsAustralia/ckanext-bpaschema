@@ -63,6 +63,18 @@
             "label": "Access Control Reason"
         },
         {
+            "field_name": "metadata_created",
+            "form_placeholder": "used by ckanext-bpatheme",
+            "label": "Record Created",
+             "preset": "datetime"
+        },
+        {
+            "field_name": "metadata_updated",
+            "form_placeholder": "used by ckanext-bpatheme",
+            "label": "Record Updated",
+            "preset": "datetime"
+        },
+        {
             "field_name": "access_control_date",
             "form_placeholder": "used by ckanext-bpatheme",
             "label": "Access Control Date"
