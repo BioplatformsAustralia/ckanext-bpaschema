@@ -138,11 +138,6 @@
             "label": "data_custodian"
         },
         {
-            "field_name": "data_generated",
-            "form_placeholder": "",
-            "label": "data_generated"
-        },
-        {
             "field_name": "data_type",
             "form_placeholder": "",
             "label": "data_type"
