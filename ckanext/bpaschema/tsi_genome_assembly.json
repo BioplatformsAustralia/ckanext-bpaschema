@@ -383,6 +383,16 @@
             "label": "material_extraction_type"
         },
         {
+            "field_name": "metadata_revision_date",
+            "form_placeholder": "",
+            "label": "metadata_revision_date"
+        },
+        {
+            "field_name": "metadata_revision_filename",
+            "form_placeholder": "",
+            "label": "metadata_revision_filename"
+        },
+        {
             "field_name": "method_of_determination",
             "form_placeholder": "",
             "label": "method_of_determination"
@@ -476,6 +486,11 @@
             "field_name": "scientific_name_note",
             "form_placeholder": "",
             "label": "scientific_name_note"
+        },
+        {
+            "field_name": "sequencing_facility",
+            "form_placeholder": "",
+            "label": "sequencing_facility"
         },
         {
             "field_name": "sequencing_technology",

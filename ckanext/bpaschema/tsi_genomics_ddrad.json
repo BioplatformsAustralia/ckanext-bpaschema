@@ -383,6 +383,11 @@
             "label": "library_ng_ul"
         },
         {
+            "field_name": "library_oligo_sequence",
+            "form_placeholder": "",
+            "label": "library_oligo_sequence"
+        },
+        {
             "field_name": "library_oligo_sequence_dual",
             "form_placeholder": "",
             "label": "library_oligo_sequence_dual"
@@ -486,6 +491,16 @@
             "field_name": "material_extraction_type",
             "form_placeholder": "",
             "label": "material_extraction_type"
+        },
+        {
+            "field_name": "metadata_revision_date",
+            "form_placeholder": "",
+            "label": "metadata_revision_date"
+        },
+        {
+            "field_name": "metadata_revision_filename",
+            "form_placeholder": "",
+            "label": "metadata_revision_filename"
         },
         {
             "field_name": "method_of_determination",
@@ -727,6 +742,14 @@
         {
             "field_name": "bpa_dataset_id",
             "label": "bpa_dataset_id"
+        },
+        {
+            "field_name": "facility_contract",
+            "label": "facility_contract"
+        },
+        {
+            "field_name": "facility_id",
+            "label": "facility_id"
         },
         {
             "field_name": "flowcell_id",
