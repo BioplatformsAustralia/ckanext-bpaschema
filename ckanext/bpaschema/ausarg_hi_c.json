@@ -208,11 +208,6 @@
             "label": "data_custodian"
         },
         {
-            "field_name": "data_generated",
-            "form_placeholder": "",
-            "label": "data_generated"
-        },
-        {
             "field_name": "data_type",
             "form_placeholder": "",
             "label": "data_type"
@@ -491,6 +486,16 @@
             "field_name": "material_extraction_type",
             "form_placeholder": "",
             "label": "material_extraction_type"
+        },
+        {
+            "field_name": "metadata_revision_date",
+            "form_placeholder": "",
+            "label": "metadata_revision_date"
+        },
+        {
+            "field_name": "metadata_revision_filename",
+            "form_placeholder": "",
+            "label": "metadata_revision_filename"
         },
         {
             "field_name": "method_of_determination",

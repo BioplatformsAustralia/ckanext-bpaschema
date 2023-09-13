@@ -98,11 +98,6 @@
             "label": "analysis_software_version"
         },
         {
-            "field_name": "archive_ingestion_date",
-            "form_placeholder": "",
-            "label": "archive_ingestion_date"
-        },
-        {
             "field_name": "associated_media",
             "form_placeholder": "",
             "label": "associated_media"
@@ -143,11 +138,6 @@
             "label": "common_name"
         },
         {
-            "field_name": "contextual_data_submission_date",
-            "form_placeholder": "",
-            "label": "contextual_data_submission_date"
-        },
-        {
             "field_name": "country",
             "form_placeholder": "",
             "label": "country"
@@ -161,11 +151,6 @@
             "field_name": "data_custodian",
             "form_placeholder": "",
             "label": "data_custodian"
-        },
-        {
-            "field_name": "data_generated",
-            "form_placeholder": "",
-            "label": "data_generated"
         },
         {
             "field_name": "data_type",
@@ -186,6 +171,11 @@
             "field_name": "date_of_transfer",
             "form_placeholder": "",
             "label": "date_of_transfer"
+        },
+        {
+            "field_name": "date_of_transfer_to_archive",
+            "form_placeholder": "",
+            "label": "date_of_transfer_to_archive"
         },
         {
             "field_name": "death_date",
@@ -418,6 +408,16 @@
             "label": "material_extraction_type"
         },
         {
+            "field_name": "metadata_revision_date",
+            "form_placeholder": "",
+            "label": "metadata_revision_date"
+        },
+        {
+            "field_name": "metadata_revision_filename",
+            "form_placeholder": "",
+            "label": "metadata_revision_filename"
+        },
+        {
             "field_name": "method_of_determination",
             "form_placeholder": "",
             "label": "method_of_determination"
@@ -461,11 +461,6 @@
             "field_name": "sample_quality",
             "form_placeholder": "",
             "label": "sample_quality"
-        },
-        {
-            "field_name": "sample_submission_date",
-            "form_placeholder": "",
-            "label": "sample_submission_date"
         },
         {
             "field_name": "sequencing_facility",

@@ -113,11 +113,6 @@
             "label": "ancillary_notes"
         },
         {
-            "field_name": "archive_ingestion_date",
-            "form_placeholder": "",
-            "label": "archive_ingestion_date"
-        },
-        {
             "field_name": "associated_media",
             "form_placeholder": "",
             "label": "associated_media"
@@ -178,11 +173,6 @@
             "label": "common_name"
         },
         {
-            "field_name": "contextual_data_submission_date",
-            "form_placeholder": "",
-            "label": "contextual_data_submission_date"
-        },
-        {
             "field_name": "coord_uncertainty_metres",
             "form_placeholder": "",
             "label": "coord_uncertainty_metres"
@@ -203,11 +193,6 @@
             "label": "data_custodian"
         },
         {
-            "field_name": "data_generated",
-            "form_placeholder": "",
-            "label": "data_generated"
-        },
-        {
             "field_name": "data_type",
             "form_placeholder": "",
             "label": "data_type"
@@ -226,6 +211,11 @@
             "field_name": "date_of_transfer",
             "form_placeholder": "",
             "label": "date_of_transfer"
+        },
+        {
+            "field_name": "date_of_transfer_to_archive",
+            "form_placeholder": "",
+            "label": "date_of_transfer_to_archive"
         },
         {
             "field_name": "death_date",
@@ -286,11 +276,6 @@
             "field_name": "file_type",
             "form_placeholder": "",
             "label": "file_type"
-        },
-        {
-            "field_name": "filename",
-            "form_placeholder": "",
-            "label": "filename"
         },
         {
             "field_name": "flowcell_id",
@@ -488,6 +473,16 @@
             "label": "material_extraction_type"
         },
         {
+            "field_name": "metadata_revision_date",
+            "form_placeholder": "",
+            "label": "metadata_revision_date"
+        },
+        {
+            "field_name": "metadata_revision_filename",
+            "form_placeholder": "",
+            "label": "metadata_revision_filename"
+        },
+        {
             "field_name": "method_of_determination",
             "form_placeholder": "",
             "label": "method_of_determination"
@@ -541,11 +536,6 @@
             "field_name": "sample_quality",
             "form_placeholder": "",
             "label": "sample_quality"
-        },
-        {
-            "field_name": "sample_submission_date",
-            "form_placeholder": "",
-            "label": "sample_submission_date"
         },
         {
             "field_name": "sequencing_facility",
