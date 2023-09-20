@@ -83,11 +83,6 @@
             "label": "Related Data"
         },
         {
-            "field_name": "archive_ingestion_date",
-            "form_placeholder": "",
-            "label": "archive_ingestion_date"
-        },
-        {
             "field_name": "bait_set_name",
             "form_placeholder": "",
             "label": "bait_set_name"
@@ -108,11 +103,6 @@
             "label": "country"
         },
         {
-            "field_name": "data_generated",
-            "form_placeholder": "",
-            "label": "data_generated"
-        },
-        {
             "field_name": "data_type",
             "form_placeholder": "",
             "label": "data_type"
@@ -131,6 +121,11 @@
             "field_name": "date_of_transfer",
             "form_placeholder": "",
             "label": "date_of_transfer"
+        },
+        {
+            "field_name": "date_of_transfer_to_archive",
+            "form_placeholder": "",
+            "label": "date_of_transfer_to_archive"
         },
         {
             "field_name": "decimal_latitude_public",
@@ -296,6 +291,16 @@
             "field_name": "longitude",
             "form_placeholder": "",
             "label": "longitude"
+        },
+        {
+            "field_name": "metadata_revision_date",
+            "form_placeholder": "",
+            "label": "metadata_revision_date"
+        },
+        {
+            "field_name": "metadata_revision_filename",
+            "form_placeholder": "",
+            "label": "metadata_revision_filename"
         },
         {
             "field_name": "n_libraries_pooled",

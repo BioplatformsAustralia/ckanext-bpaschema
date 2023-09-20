@@ -93,11 +93,6 @@
             "label": "analysis_software_version"
         },
         {
-            "field_name": "archive_ingestion_date",
-            "form_placeholder": "",
-            "label": "archive_ingestion_date"
-        },
-        {
             "field_name": "bait_set_name",
             "form_placeholder": "",
             "label": "bait_set_name"
@@ -118,19 +113,9 @@
             "label": "cell_postion"
         },
         {
-            "field_name": "contextual_data_submission_date",
-            "form_placeholder": "",
-            "label": "contextual_data_submission_date"
-        },
-        {
             "field_name": "country",
             "form_placeholder": "",
             "label": "country"
-        },
-        {
-            "field_name": "data_generated",
-            "form_placeholder": "",
-            "label": "data_generated"
         },
         {
             "field_name": "data_type",
@@ -148,9 +133,19 @@
             "label": "dataset_url"
         },
         {
+            "field_name": "date_data_published",
+            "form_placeholder": "",
+            "label": "date_data_published"
+        },
+        {
             "field_name": "date_of_transfer",
             "form_placeholder": "",
             "label": "date_of_transfer"
+        },
+        {
+            "field_name": "date_of_transfer_to_archive",
+            "form_placeholder": "",
+            "label": "date_of_transfer_to_archive"
         },
         {
             "field_name": "decimal_latitude_public",
@@ -181,6 +176,11 @@
             "field_name": "dna_treatment",
             "form_placeholder": "",
             "label": "dna_treatment"
+        },
+        {
+            "field_name": "facility",
+            "form_placeholder": "",
+            "label": "facility"
         },
         {
             "field_name": "facility_sample_id",
@@ -376,6 +376,16 @@
             "field_name": "longitude",
             "form_placeholder": "",
             "label": "longitude"
+        },
+        {
+            "field_name": "metadata_revision_date",
+            "form_placeholder": "",
+            "label": "metadata_revision_date"
+        },
+        {
+            "field_name": "metadata_revision_filename",
+            "form_placeholder": "",
+            "label": "metadata_revision_filename"
         },
         {
             "field_name": "movie_length",

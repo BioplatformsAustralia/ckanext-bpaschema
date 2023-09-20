@@ -113,11 +113,6 @@
             "label": "country"
         },
         {
-            "field_name": "data_generated",
-            "form_placeholder": "",
-            "label": "data_generated"
-        },
-        {
             "field_name": "data_type",
             "form_placeholder": "",
             "label": "data_type"
@@ -291,6 +286,16 @@
             "field_name": "longitude",
             "form_placeholder": "",
             "label": "longitude"
+        },
+        {
+            "field_name": "metadata_revision_date",
+            "form_placeholder": "",
+            "label": "metadata_revision_date"
+        },
+        {
+            "field_name": "metadata_revision_filename",
+            "form_placeholder": "",
+            "label": "metadata_revision_filename"
         },
         {
             "field_name": "nagoya_protocol_compliance",
