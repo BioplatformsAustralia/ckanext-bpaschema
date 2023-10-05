@@ -253,6 +253,11 @@
             "label": "experimental_design"
         },
         {
+            "field_name": "facility",
+            "form_placeholder": "",
+            "label": "facility"
+        },
+        {
             "field_name": "facility_project_code",
             "form_placeholder": "",
             "label": "facility_project_code"
@@ -531,6 +536,11 @@
             "field_name": "prior_genetics",
             "form_placeholder": "",
             "label": "prior_genetics"
+        },
+        {
+            "field_name": "project_aim",
+            "form_placeholder": "",
+            "label": "project_aim"
         },
         {
             "field_name": "sample_custodian",
