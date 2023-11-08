@@ -103,34 +103,14 @@
             "label": "bioplatforms_dataset_id"
         },
         {
-            "field_name": "bioplatforms_library_id",
-            "form_placeholder": "",
-            "label": "bioplatforms_library_id"
-        },
-        {
             "field_name": "bioplatforms_project",
             "form_placeholder": "",
             "label": "bioplatforms_project"
         },
         {
-            "field_name": "bioplatforms_sample_id",
-            "form_placeholder": "",
-            "label": "bioplatforms_sample_id"
-        },
-        {
             "field_name": "class",
             "form_placeholder": "",
             "label": "class"
-        },
-        {
-            "field_name": "collection_date",
-            "form_placeholder": "",
-            "label": "collection_date"
-        },
-        {
-            "field_name": "collection_method",
-            "form_placeholder": "",
-            "label": "collection_method"
         },
         {
             "field_name": "collection_permit",
@@ -188,29 +168,29 @@
             "label": "decimal_latitude_private"
         },
         {
-            "field_name": "decimal_latitude_public",
-            "form_placeholder": "",
-            "label": "decimal_latitude_public"
-        },
-        {
             "field_name": "decimal_longitude_private",
             "form_placeholder": "",
             "label": "decimal_longitude_private"
         },
         {
-            "field_name": "decimal_longitude_public",
+            "field_name": "description",
             "form_placeholder": "",
-            "label": "decimal_longitude_public"
+            "label": "description"
+        },
+        {
+            "field_name": "experiment_type",
+            "form_placeholder": "",
+            "label": "experiment_type"
+        },
+        {
+            "field_name": "facility",
+            "form_placeholder": "",
+            "label": "facility"
         },
         {
             "field_name": "facility_project_code",
             "form_placeholder": "",
             "label": "facility_project_code"
-        },
-        {
-            "field_name": "facility_sample_id",
-            "form_placeholder": "",
-            "label": "facility_sample_id"
         },
         {
             "field_name": "family",
@@ -233,14 +213,14 @@
             "label": "health_state"
         },
         {
-            "field_name": "initiative",
+            "field_name": "initiative_code",
             "form_placeholder": "",
-            "label": "initiative"
+            "label": "initiative_code"
         },
         {
-            "field_name": "location_text",
+            "field_name": "library_id",
             "form_placeholder": "",
-            "label": "location_text"
+            "label": "library_id"
         },
         {
             "field_name": "metadata_revision_date",
@@ -273,39 +253,14 @@
             "label": "phylum"
         },
         {
-            "field_name": "plant_replicate",
-            "form_placeholder": "",
-            "label": "plant_replicate"
-        },
-        {
-            "field_name": "planting_bay",
-            "form_placeholder": "",
-            "label": "planting_bay"
-        },
-        {
-            "field_name": "planting_block",
-            "form_placeholder": "",
-            "label": "planting_block"
-        },
-        {
-            "field_name": "planting_code",
-            "form_placeholder": "",
-            "label": "planting_code"
-        },
-        {
-            "field_name": "planting_row",
-            "form_placeholder": "",
-            "label": "planting_row"
-        },
-        {
             "field_name": "planting_season",
             "form_placeholder": "",
             "label": "planting_season"
         },
         {
-            "field_name": "planting_site",
+            "field_name": "raw_or_analysed_data",
             "form_placeholder": "",
-            "label": "planting_site"
+            "label": "raw_or_analysed_data"
         },
         {
             "field_name": "sample_collection_type",
@@ -313,9 +268,9 @@
             "label": "sample_collection_type"
         },
         {
-            "field_name": "sample_quality",
+            "field_name": "sample_id",
             "form_placeholder": "",
-            "label": "sample_quality"
+            "label": "sample_id"
         },
         {
             "field_name": "sample_type",
@@ -346,11 +301,6 @@
             "field_name": "specimen_custodian",
             "form_placeholder": "",
             "label": "specimen_custodian"
-        },
-        {
-            "field_name": "state_or_region",
-            "form_placeholder": "",
-            "label": "state_or_region"
         },
         {
             "field_name": "sub_species",
@@ -391,11 +341,6 @@
             "field_name": "variety_commercial",
             "form_placeholder": "",
             "label": "variety_commercial"
-        },
-        {
-            "field_name": "variety_name",
-            "form_placeholder": "",
-            "label": "variety_name"
         },
         {
             "field_name": "wild_captive",
