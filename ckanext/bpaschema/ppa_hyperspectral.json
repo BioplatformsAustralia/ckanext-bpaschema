@@ -346,41 +346,6 @@
             "field_name": "wild_captive",
             "form_placeholder": "",
             "label": "wild_captive"
-        },
-        {
-            "field_name": "x_ray_current",
-            "form_placeholder": "",
-            "label": "x_ray_current"
-        },
-        {
-            "field_name": "x_ray_dosage",
-            "form_placeholder": "",
-            "label": "x_ray_dosage"
-        },
-        {
-            "field_name": "x_ray_exposure_time",
-            "form_placeholder": "",
-            "label": "x_ray_exposure_time"
-        },
-        {
-            "field_name": "x_ray_filter",
-            "form_placeholder": "",
-            "label": "x_ray_filter"
-        },
-        {
-            "field_name": "x_ray_scanning_time",
-            "form_placeholder": "",
-            "label": "x_ray_scanning_time"
-        },
-        {
-            "field_name": "x_ray_voltage",
-            "form_placeholder": "",
-            "label": "x_ray_voltage"
-        },
-        {
-            "field_name": "x_ray_voxel_resolution",
-            "form_placeholder": "",
-            "label": "x_ray_voxel_resolution"
         }
     ],
     "dataset_type": "ppa-hyperspectral",
