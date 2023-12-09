@@ -521,6 +521,10 @@
             "label": "flow_cell_id"
         },
         {
+            "field_name": "library_id",
+            "label": "library_id"
+        },
+        {
             "field_name": "resource_type",
             "label": "resource_type"
         },

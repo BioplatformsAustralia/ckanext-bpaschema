@@ -168,6 +168,16 @@
             "label": "download"
         },
         {
+            "field_name": "external_i5_index",
+            "form_placeholder": "",
+            "label": "external_i5_index"
+        },
+        {
+            "field_name": "external_i7_index",
+            "form_placeholder": "",
+            "label": "external_i7_index"
+        },
+        {
             "field_name": "facility",
             "form_placeholder": "",
             "label": "facility"
@@ -231,6 +241,11 @@
             "field_name": "id_vetting_date",
             "form_placeholder": "",
             "label": "id_vetting_date"
+        },
+        {
+            "field_name": "inline_index",
+            "form_placeholder": "",
+            "label": "inline_index"
         },
         {
             "field_name": "latitude",
