@@ -758,6 +758,11 @@
             "label": "sample_database_file"
         },
         {
+            "field_name": "sample_id",
+            "form_placeholder": "",
+            "label": "sample_id"
+        },
+        {
             "field_name": "sample_metadata_ingest_file",
             "form_placeholder": "",
             "label": "sample_metadata_ingest_file"
@@ -978,7 +983,7 @@
             "label": "work_order"
         }
     ],
-    "dataset_type": "collaborations-metagenomics-novaseq",
+    "dataset_type": "collaborations-ont-promethion",
     "resource_fields": [
         {
             "field_name": "name",
@@ -1040,32 +1045,32 @@
             "preset": "resource_format_autocomplete"
         },
         {
+            "field_name": "archive_type",
+            "label": "archive_type"
+        },
+        {
+            "field_name": "experiment_run_name",
+            "label": "experiment_run_name"
+        },
+        {
+            "field_name": "facility_id",
+            "label": "facility_id"
+        },
+        {
             "field_name": "flowcell_id",
             "label": "flowcell_id"
-        },
-        {
-            "field_name": "index",
-            "label": "index"
-        },
-        {
-            "field_name": "lane",
-            "label": "lane"
         },
         {
             "field_name": "library_id",
             "label": "library_id"
         },
         {
-            "field_name": "read",
-            "label": "read"
-        },
-        {
             "field_name": "resource_type",
             "label": "resource_type"
         },
         {
-            "field_name": "vendor",
-            "label": "vendor"
+            "field_name": "run_number",
+            "label": "run_number"
         }
     ],
     "scheming_version": 1
