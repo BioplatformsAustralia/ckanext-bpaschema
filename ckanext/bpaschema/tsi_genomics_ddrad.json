@@ -593,6 +593,11 @@
             "label": "species"
         },
         {
+            "field_name": "specimen_id",
+            "form_placeholder": "",
+            "label": "specimen_id"
+        },
+        {
             "field_name": "specimen_id_description",
             "form_placeholder": "",
             "label": "specimen_id_description"
@@ -631,6 +636,11 @@
             "field_name": "tissue_collection_type",
             "form_placeholder": "",
             "label": "tissue_collection_type"
+        },
+        {
+            "field_name": "tissue_number",
+            "form_placeholder": "",
+            "label": "tissue_number"
         },
         {
             "field_name": "tissue_preservation",
@@ -749,12 +759,24 @@
             "label": "lane"
         },
         {
+            "field_name": "optional_file",
+            "label": "optional_file"
+        },
+        {
             "field_name": "read",
             "label": "read"
         },
         {
+            "field_name": "resource_path",
+            "label": "resource_path"
+        },
+        {
             "field_name": "resource_type",
             "label": "resource_type"
+        },
+        {
+            "field_name": "shared_file",
+            "label": "shared_file"
         }
     ],
     "scheming_version": 1

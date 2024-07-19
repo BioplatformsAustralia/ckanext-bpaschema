@@ -1065,12 +1065,24 @@
             "label": "library_id"
         },
         {
+            "field_name": "optional_file",
+            "label": "optional_file"
+        },
+        {
+            "field_name": "resource_path",
+            "label": "resource_path"
+        },
+        {
             "field_name": "resource_type",
             "label": "resource_type"
         },
         {
             "field_name": "run_number",
             "label": "run_number"
+        },
+        {
+            "field_name": "shared_file",
+            "label": "shared_file"
         }
     ],
     "scheming_version": 1

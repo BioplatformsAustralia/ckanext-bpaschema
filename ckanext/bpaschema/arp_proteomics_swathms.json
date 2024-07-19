@@ -377,6 +377,10 @@
             "label": "machine_data"
         },
         {
+            "field_name": "resource_path",
+            "label": "resource_path"
+        },
+        {
             "field_name": "resource_type",
             "label": "resource_type"
         },

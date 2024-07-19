@@ -88,6 +88,11 @@
             "label": "access_rights"
         },
         {
+            "field_name": "ala_specimen_url",
+            "form_placeholder": "",
+            "label": "ala_specimen_url"
+        },
+        {
             "field_name": "analysis_software",
             "form_placeholder": "",
             "label": "analysis_software"
@@ -96,6 +101,11 @@
             "field_name": "analysis_software_version",
             "form_placeholder": "",
             "label": "analysis_software_version"
+        },
+        {
+            "field_name": "ancillary_notes",
+            "form_placeholder": "",
+            "label": "ancillary_notes"
         },
         {
             "field_name": "associated_media",
@@ -133,9 +143,24 @@
             "label": "class"
         },
         {
+            "field_name": "collection_method",
+            "form_placeholder": "",
+            "label": "collection_method"
+        },
+        {
+            "field_name": "collector_sample_id",
+            "form_placeholder": "",
+            "label": "collector_sample_id"
+        },
+        {
             "field_name": "common_name",
             "form_placeholder": "",
             "label": "common_name"
+        },
+        {
+            "field_name": "coord_uncertainty_metres",
+            "form_placeholder": "",
+            "label": "coord_uncertainty_metres"
         },
         {
             "field_name": "country",
@@ -263,6 +288,11 @@
             "label": "habitat"
         },
         {
+            "field_name": "identified_by",
+            "form_placeholder": "",
+            "label": "identified_by"
+        },
+        {
             "field_name": "insert_size_range",
             "form_placeholder": "",
             "label": "insert_size_range"
@@ -388,6 +418,11 @@
             "label": "library_type"
         },
         {
+            "field_name": "lifestage",
+            "form_placeholder": "",
+            "label": "lifestage"
+        },
+        {
             "field_name": "longitude",
             "form_placeholder": "",
             "label": "longitude"
@@ -401,6 +436,16 @@
             "field_name": "material_extracted_by",
             "form_placeholder": "",
             "label": "material_extracted_by"
+        },
+        {
+            "field_name": "material_extraction_date",
+            "form_placeholder": "",
+            "label": "material_extraction_date"
+        },
+        {
+            "field_name": "material_extraction_method",
+            "form_placeholder": "",
+            "label": "material_extraction_method"
         },
         {
             "field_name": "material_extraction_type",
@@ -636,8 +681,24 @@
             "label": "flowcell_id"
         },
         {
+            "field_name": "optional_file",
+            "label": "optional_file"
+        },
+        {
+            "field_name": "resource_path",
+            "label": "resource_path"
+        },
+        {
             "field_name": "resource_type",
             "label": "resource_type"
+        },
+        {
+            "field_name": "run",
+            "label": "run"
+        },
+        {
+            "field_name": "shared_file",
+            "label": "shared_file"
         }
     ],
     "scheming_version": 1
