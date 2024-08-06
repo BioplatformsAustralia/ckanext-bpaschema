@@ -103,6 +103,11 @@
             "label": "analysis_software_version"
         },
         {
+            "field_name": "ancillary_notes",
+            "form_placeholder": "",
+            "label": "ancillary_notes"
+        },
+        {
             "field_name": "associated_media",
             "form_placeholder": "",
             "label": "associated_media"
@@ -163,9 +168,19 @@
             "label": "collection_method"
         },
         {
+            "field_name": "collector",
+            "form_placeholder": "",
+            "label": "collector"
+        },
+        {
             "field_name": "collector_sample_id",
             "form_placeholder": "",
             "label": "collector_sample_id"
+        },
+        {
+            "field_name": "common_name",
+            "form_placeholder": "",
+            "label": "common_name"
         },
         {
             "field_name": "coord_uncertainty_metres",
@@ -298,9 +313,19 @@
             "label": "habitat"
         },
         {
+            "field_name": "identified_by",
+            "form_placeholder": "",
+            "label": "identified_by"
+        },
+        {
             "field_name": "insert_size_range",
             "form_placeholder": "",
             "label": "insert_size_range"
+        },
+        {
+            "field_name": "institution_name",
+            "form_placeholder": "",
+            "label": "institution_name"
         },
         {
             "field_name": "latitude",
@@ -513,9 +538,34 @@
             "label": "source_population"
         },
         {
+            "field_name": "species",
+            "form_placeholder": "",
+            "label": "species"
+        },
+        {
+            "field_name": "specimen_id",
+            "form_placeholder": "",
+            "label": "specimen_id"
+        },
+        {
+            "field_name": "specimen_id_description",
+            "form_placeholder": "",
+            "label": "specimen_id_description"
+        },
+        {
+            "field_name": "state_or_region",
+            "form_placeholder": "",
+            "label": "state_or_region"
+        },
+        {
             "field_name": "subspecies",
             "form_placeholder": "",
             "label": "subspecies"
+        },
+        {
+            "field_name": "taxon_id",
+            "form_placeholder": "",
+            "label": "taxon_id"
         },
         {
             "field_name": "taxonomic_group",
@@ -526,6 +576,11 @@
             "field_name": "ticket",
             "form_placeholder": "",
             "label": "ticket"
+        },
+        {
+            "field_name": "tissue_collection",
+            "form_placeholder": "",
+            "label": "tissue_collection"
         },
         {
             "field_name": "tissue_preservation",
@@ -630,12 +685,24 @@
             "label": "lane"
         },
         {
+            "field_name": "optional_file",
+            "label": "optional_file"
+        },
+        {
             "field_name": "read",
             "label": "read"
         },
         {
+            "field_name": "resource_path",
+            "label": "resource_path"
+        },
+        {
             "field_name": "resource_type",
             "label": "resource_type"
+        },
+        {
+            "field_name": "shared_file",
+            "label": "shared_file"
         }
     ],
     "scheming_version": 1

@@ -368,12 +368,24 @@
             "label": "machine_data"
         },
         {
+            "field_name": "optional_file",
+            "label": "optional_file"
+        },
+        {
+            "field_name": "resource_path",
+            "label": "resource_path"
+        },
+        {
             "field_name": "resource_type",
             "label": "resource_type"
         },
         {
             "field_name": "run_id",
             "label": "run_id"
+        },
+        {
+            "field_name": "shared_file",
+            "label": "shared_file"
         },
         {
             "field_name": "vendor",

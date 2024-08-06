@@ -95,7 +95,7 @@
         {
             "field_name": "acid_volatile_sulphides",
             "form_placeholder": "",
-            "label": "acid_volatile_sulphides"
+            "label": "acid_volatile_sulphides (\u03bcmol/g)"
         },
         {
             "field_name": "acid_volatile_sulphides_meth",
@@ -110,7 +110,7 @@
         {
             "field_name": "alkalinity",
             "form_placeholder": "",
-            "label": "alkalinity (\u00b5mol/kg)"
+            "label": "alkalinity (\u03bcmol/kg)"
         },
         {
             "field_name": "alkalinity_meth",
@@ -145,7 +145,7 @@
         {
             "field_name": "ammonium",
             "form_placeholder": "",
-            "label": "ammonium (\u00b5mol/L)"
+            "label": "ammonium (\u03bcmol/L)"
         },
         {
             "field_name": "ammonium_meth",
@@ -195,7 +195,7 @@
         {
             "field_name": "arsenic",
             "form_placeholder": "",
-            "label": "arsenic (\u00b5g/kg)"
+            "label": "arsenic (\u03bcg/kg)"
         },
         {
             "field_name": "arsenic_meth",
@@ -263,6 +263,21 @@
             "label": "bicarbonate_meth"
         },
         {
+            "field_name": "bioplatforms_dataset_id",
+            "form_placeholder": "",
+            "label": "bioplatforms_dataset_id"
+        },
+        {
+            "field_name": "bioplatforms_project",
+            "form_placeholder": "",
+            "label": "bioplatforms_project"
+        },
+        {
+            "field_name": "bioplatforms_project_code",
+            "form_placeholder": "",
+            "label": "bioplatforms_project_code"
+        },
+        {
             "field_name": "biotic_relationship",
             "form_placeholder": "",
             "label": "biotic_relationship"
@@ -270,7 +285,7 @@
         {
             "field_name": "bleaching",
             "form_placeholder": "",
-            "label": "bleaching"
+            "label": "bleaching (%)"
         },
         {
             "field_name": "bleaching_meth",
@@ -300,7 +315,7 @@
         {
             "field_name": "cadmium",
             "form_placeholder": "",
-            "label": "cadmium (\u00b5g/kg)"
+            "label": "cadmium (\u03bcg/kg)"
         },
         {
             "field_name": "cadmium_meth",
@@ -445,7 +460,7 @@
         {
             "field_name": "chromium",
             "form_placeholder": "",
-            "label": "chromium (\u00b5g/kg)"
+            "label": "chromium (\u03bcg/kg)"
         },
         {
             "field_name": "chromium_meth",
@@ -485,7 +500,7 @@
         {
             "field_name": "cobalt",
             "form_placeholder": "",
-            "label": "cobalt (\u00b5g/kg)"
+            "label": "cobalt (\u03bcg/kg)"
         },
         {
             "field_name": "cobalt_meth",
@@ -588,6 +603,11 @@
             "label": "database_schema_definitions_url"
         },
         {
+            "field_name": "dataset_id",
+            "form_placeholder": "",
+            "label": "dataset_id"
+        },
+        {
             "field_name": "dataset_url",
             "form_placeholder": "",
             "label": "dataset_url"
@@ -680,7 +700,7 @@
         {
             "field_name": "dna_concentration_submitter",
             "form_placeholder": "",
-            "label": "dna_concentration_submitter (ng/\u00b5L)"
+            "label": "dna_concentration_submitter (ng/\u03bcL)"
         },
         {
             "field_name": "dna_concentration_submitter_meth",
@@ -945,7 +965,7 @@
         {
             "field_name": "fouling",
             "form_placeholder": "",
-            "label": "fouling"
+            "label": "fouling (%)"
         },
         {
             "field_name": "fouling_meth",
@@ -1055,7 +1075,7 @@
         {
             "field_name": "grazing_number",
             "form_placeholder": "",
-            "label": "grazing_number"
+            "label": "grazing_number (individuals/m2)"
         },
         {
             "field_name": "grazing_number_meth",
@@ -1330,7 +1350,7 @@
         {
             "field_name": "lead",
             "form_placeholder": "",
-            "label": "lead (\u00b5g/kg)"
+            "label": "lead (\u03bcg/kg)"
         },
         {
             "field_name": "lead_meth",
@@ -1350,7 +1370,7 @@
         {
             "field_name": "light_intensity_bottom",
             "form_placeholder": "",
-            "label": "light_intensity_bottom (\u00b5mol/m2/s)"
+            "label": "light_intensity_bottom (\u03bcmol/m2/s)"
         },
         {
             "field_name": "light_intensity_bottom_meth",
@@ -1360,7 +1380,7 @@
         {
             "field_name": "light_intensity_meadow",
             "form_placeholder": "",
-            "label": "light_intensity_meadow (\u00b5mol/m2/s)"
+            "label": "light_intensity_meadow (\u03bcmol/m2/s)"
         },
         {
             "field_name": "light_intensity_meadow_meth",
@@ -1375,7 +1395,7 @@
         {
             "field_name": "light_intensity_surface",
             "form_placeholder": "",
-            "label": "light_intensity_surface (\u00b5mol/m2/s)"
+            "label": "light_intensity_surface (\u03bcmol/m2/s)"
         },
         {
             "field_name": "light_intensity_surface_meth",
@@ -1470,7 +1490,7 @@
         {
             "field_name": "molybdenum",
             "form_placeholder": "",
-            "label": "molybdenum (\u00b5g/kg)"
+            "label": "molybdenum (\u03bcg/kg)"
         },
         {
             "field_name": "molybdenum_meth",
@@ -1503,9 +1523,19 @@
             "label": "ncbi_bioproject_accession"
         },
         {
+            "field_name": "ncbi_bioproject_accession_number",
+            "form_placeholder": "",
+            "label": "ncbi_bioproject_accession_number"
+        },
+        {
             "field_name": "ncbi_biosample_accession",
             "form_placeholder": "",
             "label": "ncbi_biosample_accession"
+        },
+        {
+            "field_name": "ncbi_biosample_accession_number",
+            "form_placeholder": "",
+            "label": "ncbi_biosample_accession_number"
         },
         {
             "field_name": "neo",
@@ -1550,7 +1580,7 @@
         {
             "field_name": "nitrate",
             "form_placeholder": "",
-            "label": "nitrate (\u00b5mol/L)"
+            "label": "nitrate (\u03bcmol/L)"
         },
         {
             "field_name": "nitrate_meth",
@@ -1560,7 +1590,7 @@
         {
             "field_name": "nitrate_nitrite",
             "form_placeholder": "",
-            "label": "nitrate_nitrite (\u00b5mol/L)"
+            "label": "nitrate_nitrite (\u03bcmol/L)"
         },
         {
             "field_name": "nitrate_nitrite_meth",
@@ -1580,7 +1610,7 @@
         {
             "field_name": "nitrite",
             "form_placeholder": "",
-            "label": "nitrite (\u00b5mol/L)"
+            "label": "nitrite (\u03bcmol/L)"
         },
         {
             "field_name": "nitrite_meth",
@@ -1665,7 +1695,7 @@
         {
             "field_name": "oxygen",
             "form_placeholder": "",
-            "label": "oxygen (\u00b5mol/L)"
+            "label": "oxygen (\u03bcmol/L)"
         },
         {
             "field_name": "oxygen_ctd_vol",
@@ -1680,7 +1710,7 @@
         {
             "field_name": "oxygen_ctd_wt",
             "form_placeholder": "",
-            "label": "oxygen_ctd_wt (\u00b5mol/kg)"
+            "label": "oxygen_ctd_wt (\u03bcmol/kg)"
         },
         {
             "field_name": "oxygen_ctd_wt_meth",
@@ -1715,7 +1745,7 @@
         {
             "field_name": "par",
             "form_placeholder": "",
-            "label": "par (\u00b5mol/m2/s)"
+            "label": "par (\u03bcmol/m2/s)"
         },
         {
             "field_name": "par_meth",
@@ -1725,7 +1755,7 @@
         {
             "field_name": "part_org_carb",
             "form_placeholder": "",
-            "label": "part_org_carb (\u00b5mol/L)"
+            "label": "part_org_carb (\u03bcmol/L)"
         },
         {
             "field_name": "part_org_carb_meth",
@@ -1775,7 +1805,7 @@
         {
             "field_name": "phosphate",
             "form_placeholder": "",
-            "label": "phosphate (\u00b5mol/L)"
+            "label": "phosphate (\u03bcmol/L)"
         },
         {
             "field_name": "phosphate_meth",
@@ -1850,7 +1880,7 @@
         {
             "field_name": "pn",
             "form_placeholder": "",
-            "label": "pn (\u00b5mol/L)"
+            "label": "pn (\u03bcmol/L)"
         },
         {
             "field_name": "pn_meth",
@@ -2160,7 +2190,7 @@
         {
             "field_name": "sediment_porewater_h4sio4",
             "form_placeholder": "",
-            "label": "sediment_porewater_h4sio4 (\u00b5mol/L)"
+            "label": "sediment_porewater_h4sio4 (\u03bcmol/L)"
         },
         {
             "field_name": "sediment_porewater_h4sio4_meth",
@@ -2170,7 +2200,7 @@
         {
             "field_name": "sediment_porewater_nh4",
             "form_placeholder": "",
-            "label": "sediment_porewater_nh4 (\u00b5mol/L)"
+            "label": "sediment_porewater_nh4 (\u03bcmol/L)"
         },
         {
             "field_name": "sediment_porewater_nh4_meth",
@@ -2180,7 +2210,7 @@
         {
             "field_name": "sediment_porewater_no2",
             "form_placeholder": "",
-            "label": "sediment_porewater_no2 (\u00b5mol/L)"
+            "label": "sediment_porewater_no2 (\u03bcmol/L)"
         },
         {
             "field_name": "sediment_porewater_no2_meth",
@@ -2190,7 +2220,7 @@
         {
             "field_name": "sediment_porewater_no3",
             "form_placeholder": "",
-            "label": "sediment_porewater_no3 (\u00b5mol/L)"
+            "label": "sediment_porewater_no3 (\u03bcmol/L)"
         },
         {
             "field_name": "sediment_porewater_no3_meth",
@@ -2200,7 +2230,7 @@
         {
             "field_name": "sediment_porewater_po43",
             "form_placeholder": "",
-            "label": "sediment_porewater_po43 (\u00b5mol/L)"
+            "label": "sediment_porewater_po43 (\u03bcmol/L)"
         },
         {
             "field_name": "sediment_porewater_po43_meth",
@@ -2220,7 +2250,7 @@
         {
             "field_name": "selenium",
             "form_placeholder": "",
-            "label": "selenium (\u00b5g/kg)"
+            "label": "selenium (\u03bcg/kg)"
         },
         {
             "field_name": "selenium_meth",
@@ -2245,7 +2275,7 @@
         {
             "field_name": "silicate",
             "form_placeholder": "",
-            "label": "silicate (\u00b5mol/L)"
+            "label": "silicate (\u03bcmol/L)"
         },
         {
             "field_name": "silicate_meth",
@@ -2275,7 +2305,7 @@
         {
             "field_name": "sio2",
             "form_placeholder": "",
-            "label": "sio2 (\u00b5mol/L)"
+            "label": "sio2 (\u03bcmol/L)"
         },
         {
             "field_name": "sio2_meth",
@@ -2480,7 +2510,7 @@
         {
             "field_name": "tot_org_carb",
             "form_placeholder": "",
-            "label": "tot_org_carb"
+            "label": "tot_org_carb (%)"
         },
         {
             "field_name": "tot_phosp",
@@ -2495,7 +2525,7 @@
         {
             "field_name": "total_co2",
             "form_placeholder": "",
-            "label": "total_co2 (\u00b5mol/kg)"
+            "label": "total_co2 (\u03bcmol/kg)"
         },
         {
             "field_name": "total_co2_meth",
@@ -2570,7 +2600,7 @@
         {
             "field_name": "turbidity",
             "form_placeholder": "",
-            "label": "turbidity (NTU_or_FTU)"
+            "label": "turbidity (NTU)"
         },
         {
             "field_name": "turbidity_meth",
@@ -2838,8 +2868,16 @@
             "label": "ncbi_file_uploaded"
         },
         {
+            "field_name": "optional_file",
+            "label": "optional_file"
+        },
+        {
             "field_name": "read",
             "label": "read"
+        },
+        {
+            "field_name": "resource_path",
+            "label": "resource_path"
         },
         {
             "field_name": "resource_type",
@@ -2848,6 +2886,10 @@
         {
             "field_name": "run",
             "label": "run"
+        },
+        {
+            "field_name": "shared_file",
+            "label": "shared_file"
         },
         {
             "field_name": "vendor",

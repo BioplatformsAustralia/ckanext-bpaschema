@@ -113,6 +113,11 @@
             "label": "country"
         },
         {
+            "field_name": "data_size_m",
+            "form_placeholder": "",
+            "label": "data_size_m"
+        },
+        {
             "field_name": "data_type",
             "form_placeholder": "",
             "label": "data_type"
@@ -525,6 +530,14 @@
             "label": "library_id"
         },
         {
+            "field_name": "optional_file",
+            "label": "optional_file"
+        },
+        {
+            "field_name": "resource_path",
+            "label": "resource_path"
+        },
+        {
             "field_name": "resource_type",
             "label": "resource_type"
         },
@@ -535,6 +548,10 @@
         {
             "field_name": "sample_id",
             "label": "sample_id"
+        },
+        {
+            "field_name": "shared_file",
+            "label": "shared_file"
         }
     ],
     "scheming_version": 1

@@ -660,8 +660,16 @@
             "label": "lane"
         },
         {
+            "field_name": "optional_file",
+            "label": "optional_file"
+        },
+        {
             "field_name": "read",
             "label": "read"
+        },
+        {
+            "field_name": "resource_path",
+            "label": "resource_path"
         },
         {
             "field_name": "resource_type",
@@ -670,6 +678,10 @@
         {
             "field_name": "runsamplenum",
             "label": "runsamplenum"
+        },
+        {
+            "field_name": "shared_file",
+            "label": "shared_file"
         },
         {
             "field_name": "voucher_id",

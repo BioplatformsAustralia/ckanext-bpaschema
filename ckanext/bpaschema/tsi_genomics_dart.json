@@ -158,6 +158,11 @@
             "label": "class"
         },
         {
+            "field_name": "collection_date",
+            "form_placeholder": "",
+            "label": "collection_date"
+        },
+        {
             "field_name": "collection_method",
             "form_placeholder": "",
             "label": "collection_method"
@@ -751,12 +756,24 @@
             "label": "flowcell_id"
         },
         {
+            "field_name": "optional_file",
+            "label": "optional_file"
+        },
+        {
+            "field_name": "resource_path",
+            "label": "resource_path"
+        },
+        {
             "field_name": "resource_type",
             "label": "resource_type"
         },
         {
             "field_name": "run",
             "label": "run"
+        },
+        {
+            "field_name": "shared_file",
+            "label": "shared_file"
         }
     ],
     "scheming_version": 1
