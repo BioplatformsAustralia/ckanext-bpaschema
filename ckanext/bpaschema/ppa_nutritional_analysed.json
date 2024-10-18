@@ -223,11 +223,6 @@
             "label": "initiative_code"
         },
         {
-            "field_name": "library_id",
-            "form_placeholder": "",
-            "label": "library_id"
-        },
-        {
             "field_name": "metadata_revision_date",
             "form_placeholder": "",
             "label": "metadata_revision_date"
@@ -266,11 +261,6 @@
             "field_name": "sample_collection_type",
             "form_placeholder": "",
             "label": "sample_collection_type"
-        },
-        {
-            "field_name": "sample_id",
-            "form_placeholder": "",
-            "label": "sample_id"
         },
         {
             "field_name": "sample_type",

@@ -233,6 +233,11 @@
             "label": "lc_column_type"
         },
         {
+            "field_name": "mass_spectrometer",
+            "form_placeholder": "",
+            "label": "mass_spectrometer"
+        },
+        {
             "field_name": "metadata_revision_date",
             "form_placeholder": "",
             "label": "metadata_revision_date"

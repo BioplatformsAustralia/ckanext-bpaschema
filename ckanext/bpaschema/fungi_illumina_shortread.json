@@ -830,6 +830,10 @@
             "label": "resource_type"
         },
         {
+            "field_name": "runsamplenum",
+            "label": "runsamplenum"
+        },
+        {
             "field_name": "shared_file",
             "label": "shared_file"
         }
