@@ -283,11 +283,6 @@
             "label": "file_count"
         },
         {
-            "field_name": "file_name",
-            "form_placeholder": "",
-            "label": "file_name"
-        },
-        {
             "field_name": "flow_cell_id",
             "form_placeholder": "",
             "label": "flow_cell_id"
@@ -398,14 +393,14 @@
             "label": "library_index_id_dual"
         },
         {
+            "field_name": "library_index_seq",
+            "form_placeholder": "",
+            "label": "library_index_seq"
+        },
+        {
             "field_name": "library_index_seq_dual",
             "form_placeholder": "",
             "label": "library_index_seq_dual"
-        },
-        {
-            "field_name": "library_index_sequence",
-            "form_placeholder": "",
-            "label": "library_index_sequence"
         },
         {
             "field_name": "library_layout",
@@ -461,11 +456,6 @@
             "field_name": "library_source",
             "form_placeholder": "",
             "label": "library_source"
-        },
-        {
-            "field_name": "library_status",
-            "form_placeholder": "",
-            "label": "library_status"
         },
         {
             "field_name": "library_strategy",
@@ -566,11 +556,6 @@
             "field_name": "project_lead",
             "form_placeholder": "",
             "label": "project_lead"
-        },
-        {
-            "field_name": "run_format",
-            "form_placeholder": "",
-            "label": "run_format"
         },
         {
             "field_name": "sample_collection_type",
@@ -723,7 +708,7 @@
             "label": "work_order"
         }
     ],
-    "dataset_type": "fungi-illumina-shortread",
+    "dataset_type": "fungi-ont-promethion",
     "resource_fields": [
         {
             "field_name": "name",
@@ -785,6 +770,10 @@
             "preset": "resource_format_autocomplete"
         },
         {
+            "field_name": "archive_type",
+            "label": "archive_type"
+        },
+        {
             "field_name": "bioplatforms_library_id",
             "label": "bioplatforms_library_id"
         },
@@ -797,14 +786,6 @@
             "label": "flow_cell_id"
         },
         {
-            "field_name": "index",
-            "label": "index"
-        },
-        {
-            "field_name": "lane",
-            "label": "lane"
-        },
-        {
             "field_name": "library_id",
             "label": "library_id"
         },
@@ -813,20 +794,12 @@
             "label": "optional_file"
         },
         {
-            "field_name": "read",
-            "label": "read"
-        },
-        {
             "field_name": "resource_path",
             "label": "resource_path"
         },
         {
             "field_name": "resource_type",
             "label": "resource_type"
-        },
-        {
-            "field_name": "runsamplenum",
-            "label": "runsamplenum"
         },
         {
             "field_name": "shared_file",
