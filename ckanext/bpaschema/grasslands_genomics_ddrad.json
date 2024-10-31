@@ -83,6 +83,11 @@
             "label": "Related Data"
         },
         {
+            "field_name": "accession_number_seed",
+            "form_placeholder": "",
+            "label": "accession_number_seed"
+        },
+        {
             "field_name": "analysis_software",
             "form_placeholder": "",
             "label": "analysis_software"
@@ -113,6 +118,26 @@
             "label": "cell_postion"
         },
         {
+            "field_name": "collected_by",
+            "form_placeholder": "",
+            "label": "collected_by"
+        },
+        {
+            "field_name": "collection_date",
+            "form_placeholder": "",
+            "label": "collection_date"
+        },
+        {
+            "field_name": "common_name",
+            "form_placeholder": "",
+            "label": "common_name"
+        },
+        {
+            "field_name": "country",
+            "form_placeholder": "",
+            "label": "country"
+        },
+        {
             "field_name": "data_context",
             "form_placeholder": "",
             "label": "data_context"
@@ -138,6 +163,16 @@
             "label": "date_of_transfer_to_archive"
         },
         {
+            "field_name": "decimal_latitude_public",
+            "form_placeholder": "",
+            "label": "decimal_latitude_public"
+        },
+        {
+            "field_name": "decimal_longitude_public",
+            "form_placeholder": "",
+            "label": "decimal_longitude_public"
+        },
+        {
             "field_name": "description",
             "form_placeholder": "",
             "label": "description"
@@ -153,9 +188,19 @@
             "label": "experimental_design"
         },
         {
+            "field_name": "experimental_notes",
+            "form_placeholder": "",
+            "label": "experimental_notes"
+        },
+        {
             "field_name": "facility_project_code",
             "form_placeholder": "",
             "label": "facility_project_code"
+        },
+        {
+            "field_name": "family",
+            "form_placeholder": "",
+            "label": "family"
         },
         {
             "field_name": "fast5_compression",
@@ -178,9 +223,39 @@
             "label": "folder_name"
         },
         {
+            "field_name": "growth_condition",
+            "form_placeholder": "",
+            "label": "growth_condition"
+        },
+        {
+            "field_name": "growth_facility",
+            "form_placeholder": "",
+            "label": "growth_facility"
+        },
+        {
+            "field_name": "herbarium_code",
+            "form_placeholder": "",
+            "label": "herbarium_code"
+        },
+        {
+            "field_name": "id_vetting_by",
+            "form_placeholder": "",
+            "label": "id_vetting_by"
+        },
+        {
+            "field_name": "id_vetting_date",
+            "form_placeholder": "",
+            "label": "id_vetting_date"
+        },
+        {
             "field_name": "insert_size_range",
             "form_placeholder": "",
             "label": "insert_size_range"
+        },
+        {
+            "field_name": "latitude",
+            "form_placeholder": "",
+            "label": "latitude"
         },
         {
             "field_name": "library_construction_protocol",
@@ -243,6 +318,31 @@
             "label": "library_type"
         },
         {
+            "field_name": "location_id",
+            "form_placeholder": "",
+            "label": "location_id"
+        },
+        {
+            "field_name": "location_notes",
+            "form_placeholder": "",
+            "label": "location_notes"
+        },
+        {
+            "field_name": "longitude",
+            "form_placeholder": "",
+            "label": "longitude"
+        },
+        {
+            "field_name": "metadata_revision_date",
+            "form_placeholder": "",
+            "label": "metadata_revision_date"
+        },
+        {
+            "field_name": "metadata_revision_filename",
+            "form_placeholder": "",
+            "label": "metadata_revision_filename"
+        },
+        {
             "field_name": "model_base_caller",
             "form_placeholder": "",
             "label": "model_base_caller"
@@ -258,9 +358,119 @@
             "label": "n_libraries_pooled"
         },
         {
+            "field_name": "nagoya_protocol_compliance",
+            "form_placeholder": "",
+            "label": "nagoya_protocol_compliance"
+        },
+        {
+            "field_name": "nagoya_protocol_permit_number",
+            "form_placeholder": "",
+            "label": "nagoya_protocol_permit_number"
+        },
+        {
+            "field_name": "plant_developmental_stage",
+            "form_placeholder": "",
+            "label": "plant_developmental_stage"
+        },
+        {
+            "field_name": "plant_growth_medium",
+            "form_placeholder": "",
+            "label": "plant_growth_medium"
+        },
+        {
+            "field_name": "plant_structure",
+            "form_placeholder": "",
+            "label": "plant_structure"
+        },
+        {
+            "field_name": "ploidy",
+            "form_placeholder": "",
+            "label": "ploidy"
+        },
+        {
+            "field_name": "population_group",
+            "form_placeholder": "",
+            "label": "population_group"
+        },
+        {
+            "field_name": "preservation_date_begin",
+            "form_placeholder": "",
+            "label": "preservation_date_begin"
+        },
+        {
+            "field_name": "preservation_storage_location",
+            "form_placeholder": "",
+            "label": "preservation_storage_location"
+        },
+        {
+            "field_name": "preservation_temperature",
+            "form_placeholder": "",
+            "label": "preservation_temperature"
+        },
+        {
+            "field_name": "preservation_type",
+            "form_placeholder": "",
+            "label": "preservation_type"
+        },
+        {
+            "field_name": "project_aim",
+            "form_placeholder": "",
+            "label": "project_aim"
+        },
+        {
+            "field_name": "sample_id",
+            "form_placeholder": "",
+            "label": "sample_id"
+        },
+        {
+            "field_name": "sample_material_associated_references",
+            "form_placeholder": "",
+            "label": "sample_material_associated_references"
+        },
+        {
+            "field_name": "sample_material_preparation_date",
+            "form_placeholder": "",
+            "label": "sample_material_preparation_date"
+        },
+        {
+            "field_name": "sample_material_preparation_process",
+            "form_placeholder": "",
+            "label": "sample_material_preparation_process"
+        },
+        {
+            "field_name": "sample_material_preparation_type",
+            "form_placeholder": "",
+            "label": "sample_material_preparation_type"
+        },
+        {
+            "field_name": "sample_material_prepared_by",
+            "form_placeholder": "",
+            "label": "sample_material_prepared_by"
+        },
+        {
             "field_name": "sample_replicate",
             "form_placeholder": "",
             "label": "sample_replicate"
+        },
+        {
+            "field_name": "sample_submission_date",
+            "form_placeholder": "",
+            "label": "sample_submission_date"
+        },
+        {
+            "field_name": "sample_submitter_name",
+            "form_placeholder": "",
+            "label": "sample_submitter_name"
+        },
+        {
+            "field_name": "scientific_name",
+            "form_placeholder": "",
+            "label": "scientific_name"
+        },
+        {
+            "field_name": "scientific_name_authorship",
+            "form_placeholder": "",
+            "label": "scientific_name_authorship"
         },
         {
             "field_name": "sequencing_facility",
@@ -283,9 +493,54 @@
             "label": "sequencing_platform"
         },
         {
+            "field_name": "species_complex",
+            "form_placeholder": "",
+            "label": "species_complex"
+        },
+        {
+            "field_name": "state_or_territory",
+            "form_placeholder": "",
+            "label": "state_or_territory"
+        },
+        {
+            "field_name": "taxon_id",
+            "form_placeholder": "",
+            "label": "taxon_id"
+        },
+        {
+            "field_name": "team_lead_email",
+            "form_placeholder": "",
+            "label": "team_lead_email"
+        },
+        {
+            "field_name": "team_lead_name",
+            "form_placeholder": "",
+            "label": "team_lead_name"
+        },
+        {
             "field_name": "ticket",
             "form_placeholder": "",
             "label": "ticket"
+        },
+        {
+            "field_name": "voucher_herbarium_catalog_number",
+            "form_placeholder": "",
+            "label": "voucher_herbarium_catalog_number"
+        },
+        {
+            "field_name": "voucher_herbarium_collector_id",
+            "form_placeholder": "",
+            "label": "voucher_herbarium_collector_id"
+        },
+        {
+            "field_name": "voucher_herbarium_event_date",
+            "form_placeholder": "",
+            "label": "voucher_herbarium_event_date"
+        },
+        {
+            "field_name": "voucher_herbarium_record_number",
+            "form_placeholder": "",
+            "label": "voucher_herbarium_record_number"
         },
         {
             "field_name": "work_order",
