@@ -1,0 +1,665 @@
+{
+    "about_url": "https://data.bioplatforms.com/",
+    "dataset_fields": [
+        {
+            "display_property": "dct:publisher",
+            "field_name": "owner_org",
+            "form_snippet": "organization.html",
+            "label": "Organization",
+            "validators": "owner_org_validator unicode"
+        },
+        {
+            "field_name": "title",
+            "form_placeholder": "",
+            "label": "Title",
+            "preset": "title"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:description",
+            "field_name": "notes",
+            "form_placeholder": "eg. Some useful notes about the data",
+            "form_snippet": "markdown.html",
+            "label": "Description"
+        },
+        {
+            "field_name": "name",
+            "form_placeholder": "",
+            "label": "URL",
+            "preset": "dataset_slug"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:keyword",
+            "field_name": "tag_string",
+            "form_attrs": {
+                "data-module": "autocomplete",
+                "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?",
+                "data-module-tags": ""
+            },
+            "form_placeholder": "type to auto-complete",
+            "label": "Tags",
+            "validators": "ignore_missing tag_string_convert"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:spatial",
+            "display_snippet": "spatial.html",
+            "field_name": "spatial",
+            "form_placeholder": "Paste a valid GeoJSON geometry",
+            "label": "Geospatial Coverage"
+        },
+        {
+            "display_property": "dcat:Dataset/dcat:distribution/dcat:Distribution/dct:license",
+            "field_name": "license_id",
+            "form_snippet": "license.html",
+            "label": "License"
+        },
+        {
+            "field_name": "resource_permissions",
+            "form_placeholder": "used by ckanext-initiatives",
+            "label": "Resource Permissions"
+        },
+        {
+            "field_name": "access_control_reason",
+            "form_placeholder": "used by ckanext-bpatheme",
+            "label": "Access Control Reason"
+        },
+        {
+            "field_name": "access_control_date",
+            "form_placeholder": "used by ckanext-bpatheme",
+            "label": "Access Control Date"
+        },
+        {
+            "field_name": "access_control_mode",
+            "form_placeholder": "used by ckanext-bpatheme",
+            "label": "Access Control Mode"
+        },
+        {
+            "field_name": "sequence_data_type",
+            "form_placeholder": "used by ckanext-bpatheme",
+            "label": "Sequence Data Type"
+        },
+        {
+            "field_name": "related_data",
+            "form_placeholder": "used by ckanext-bpatheme",
+            "label": "Related Data"
+        },
+        {
+            "field_name": "acquisition_mode",
+            "form_placeholder": "",
+            "label": "acquisition_mode"
+        },
+        {
+            "field_name": "activation_type",
+            "form_placeholder": "",
+            "label": "activation_type"
+        },
+        {
+            "field_name": "altitude",
+            "form_placeholder": "",
+            "label": "altitude"
+        },
+        {
+            "field_name": "analysis_type",
+            "form_placeholder": "",
+            "label": "analysis_type"
+        },
+        {
+            "field_name": "analytical_platform",
+            "form_placeholder": "",
+            "label": "analytical_platform"
+        },
+        {
+            "field_name": "analytical_platform_model",
+            "form_placeholder": "",
+            "label": "analytical_platform_model"
+        },
+        {
+            "field_name": "ancillary_notes",
+            "form_placeholder": "",
+            "label": "ancillary_notes"
+        },
+        {
+            "field_name": "associated_media",
+            "form_placeholder": "",
+            "label": "associated_media"
+        },
+        {
+            "field_name": "base_url",
+            "form_placeholder": "",
+            "label": "base_url"
+        },
+        {
+            "field_name": "bioplatforms_dataset_id",
+            "form_placeholder": "",
+            "label": "bioplatforms_dataset_id"
+        },
+        {
+            "field_name": "bioplatforms_project",
+            "form_placeholder": "",
+            "label": "bioplatforms_project"
+        },
+        {
+            "field_name": "class",
+            "form_placeholder": "",
+            "label": "class"
+        },
+        {
+            "field_name": "collection_date",
+            "form_placeholder": "",
+            "label": "collection_date"
+        },
+        {
+            "field_name": "collection_method",
+            "form_placeholder": "",
+            "label": "collection_method"
+        },
+        {
+            "field_name": "collection_permit",
+            "form_placeholder": "",
+            "label": "collection_permit"
+        },
+        {
+            "field_name": "collector",
+            "form_placeholder": "",
+            "label": "collector"
+        },
+        {
+            "field_name": "collector_sample_id",
+            "form_placeholder": "",
+            "label": "collector_sample_id"
+        },
+        {
+            "field_name": "common_name",
+            "form_placeholder": "",
+            "label": "common_name"
+        },
+        {
+            "field_name": "country",
+            "form_placeholder": "",
+            "label": "country"
+        },
+        {
+            "field_name": "data_context",
+            "form_placeholder": "",
+            "label": "data_context"
+        },
+        {
+            "field_name": "data_type",
+            "form_placeholder": "",
+            "label": "data_type"
+        },
+        {
+            "field_name": "dataset_url",
+            "form_placeholder": "",
+            "label": "dataset_url"
+        },
+        {
+            "field_name": "date_of_transfer",
+            "form_placeholder": "",
+            "label": "date_of_transfer"
+        },
+        {
+            "field_name": "date_of_transfer_to_archive",
+            "form_placeholder": "",
+            "label": "date_of_transfer_to_archive"
+        },
+        {
+            "field_name": "decimal_latitude_public",
+            "form_placeholder": "",
+            "label": "decimal_latitude_public"
+        },
+        {
+            "field_name": "decimal_longitude_public",
+            "form_placeholder": "",
+            "label": "decimal_longitude_public"
+        },
+        {
+            "field_name": "depth",
+            "form_placeholder": "",
+            "label": "depth"
+        },
+        {
+            "field_name": "description",
+            "form_placeholder": "",
+            "label": "description"
+        },
+        {
+            "field_name": "env_broad_scale",
+            "form_placeholder": "",
+            "label": "env_broad_scale"
+        },
+        {
+            "field_name": "env_local_scale",
+            "form_placeholder": "",
+            "label": "env_local_scale"
+        },
+        {
+            "field_name": "env_medium",
+            "form_placeholder": "",
+            "label": "env_medium"
+        },
+        {
+            "field_name": "facility_project_code",
+            "form_placeholder": "",
+            "label": "facility_project_code"
+        },
+        {
+            "field_name": "family",
+            "form_placeholder": "",
+            "label": "family"
+        },
+        {
+            "field_name": "folder_name",
+            "form_placeholder": "",
+            "label": "folder_name"
+        },
+        {
+            "field_name": "genus",
+            "form_placeholder": "",
+            "label": "genus"
+        },
+        {
+            "field_name": "gradient_time",
+            "form_placeholder": "",
+            "label": "gradient_time"
+        },
+        {
+            "field_name": "habitat",
+            "form_placeholder": "",
+            "label": "habitat"
+        },
+        {
+            "field_name": "health_state",
+            "form_placeholder": "",
+            "label": "health_state"
+        },
+        {
+            "field_name": "host_common_name",
+            "form_placeholder": "",
+            "label": "host_common_name"
+        },
+        {
+            "field_name": "host_family",
+            "form_placeholder": "",
+            "label": "host_family"
+        },
+        {
+            "field_name": "host_organ",
+            "form_placeholder": "",
+            "label": "host_organ"
+        },
+        {
+            "field_name": "host_scientific_name",
+            "form_placeholder": "",
+            "label": "host_scientific_name"
+        },
+        {
+            "field_name": "host_status",
+            "form_placeholder": "",
+            "label": "host_status"
+        },
+        {
+            "field_name": "host_symptom",
+            "form_placeholder": "",
+            "label": "host_symptom"
+        },
+        {
+            "field_name": "identified_by",
+            "form_placeholder": "",
+            "label": "identified_by"
+        },
+        {
+            "field_name": "indigenous_location",
+            "form_placeholder": "",
+            "label": "indigenous_location"
+        },
+        {
+            "field_name": "isolate",
+            "form_placeholder": "",
+            "label": "isolate"
+        },
+        {
+            "field_name": "lc_column_type",
+            "form_placeholder": "",
+            "label": "lc_column_type"
+        },
+        {
+            "field_name": "life_stage",
+            "form_placeholder": "",
+            "label": "life_stage"
+        },
+        {
+            "field_name": "location_info_restricted",
+            "form_placeholder": "",
+            "label": "location_info_restricted"
+        },
+        {
+            "field_name": "location_text",
+            "form_placeholder": "",
+            "label": "location_text"
+        },
+        {
+            "field_name": "material_conc_ng_ul",
+            "form_placeholder": "",
+            "label": "material_conc_ng_ul"
+        },
+        {
+            "field_name": "material_extracted_by",
+            "form_placeholder": "",
+            "label": "material_extracted_by"
+        },
+        {
+            "field_name": "material_extraction_date",
+            "form_placeholder": "",
+            "label": "material_extraction_date"
+        },
+        {
+            "field_name": "material_extraction_method",
+            "form_placeholder": "",
+            "label": "material_extraction_method"
+        },
+        {
+            "field_name": "material_extraction_type",
+            "form_placeholder": "",
+            "label": "material_extraction_type"
+        },
+        {
+            "field_name": "metadata_revision_date",
+            "form_placeholder": "",
+            "label": "metadata_revision_date"
+        },
+        {
+            "field_name": "metadata_revision_filename",
+            "form_placeholder": "",
+            "label": "metadata_revision_filename"
+        },
+        {
+            "field_name": "mobile_phase_composition",
+            "form_placeholder": "",
+            "label": "mobile_phase_composition"
+        },
+        {
+            "field_name": "omics_facility",
+            "form_placeholder": "",
+            "label": "omics_facility"
+        },
+        {
+            "field_name": "order",
+            "form_placeholder": "",
+            "label": "order"
+        },
+        {
+            "field_name": "phylum",
+            "form_placeholder": "",
+            "label": "phylum"
+        },
+        {
+            "field_name": "project_collaborators",
+            "form_placeholder": "",
+            "label": "project_collaborators"
+        },
+        {
+            "field_name": "project_lead",
+            "form_placeholder": "",
+            "label": "project_lead"
+        },
+        {
+            "field_name": "sample_collection_type",
+            "form_placeholder": "",
+            "label": "sample_collection_type"
+        },
+        {
+            "field_name": "sample_custodian",
+            "form_placeholder": "",
+            "label": "sample_custodian"
+        },
+        {
+            "field_name": "sample_fractionation_extraction_solvent",
+            "form_placeholder": "",
+            "label": "sample_fractionation_extraction_solvent"
+        },
+        {
+            "field_name": "sample_id",
+            "form_placeholder": "",
+            "label": "sample_id"
+        },
+        {
+            "field_name": "sample_id_description",
+            "form_placeholder": "",
+            "label": "sample_id_description"
+        },
+        {
+            "field_name": "sample_loaded",
+            "form_placeholder": "",
+            "label": "sample_loaded"
+        },
+        {
+            "field_name": "sample_prep_date",
+            "form_placeholder": "",
+            "label": "sample_prep_date"
+        },
+        {
+            "field_name": "sample_prep_protocol",
+            "form_placeholder": "",
+            "label": "sample_prep_protocol"
+        },
+        {
+            "field_name": "sample_prepared_by",
+            "form_placeholder": "",
+            "label": "sample_prepared_by"
+        },
+        {
+            "field_name": "sample_quality",
+            "form_placeholder": "",
+            "label": "sample_quality"
+        },
+        {
+            "field_name": "sample_tag",
+            "form_placeholder": "",
+            "label": "sample_tag"
+        },
+        {
+            "field_name": "sample_type",
+            "form_placeholder": "",
+            "label": "sample_type"
+        },
+        {
+            "field_name": "scientific_name",
+            "form_placeholder": "",
+            "label": "scientific_name"
+        },
+        {
+            "field_name": "scientific_name_authorship",
+            "form_placeholder": "",
+            "label": "scientific_name_authorship"
+        },
+        {
+            "field_name": "scientific_name_note",
+            "form_placeholder": "",
+            "label": "scientific_name_note"
+        },
+        {
+            "field_name": "source_population",
+            "form_placeholder": "",
+            "label": "source_population"
+        },
+        {
+            "field_name": "species",
+            "form_placeholder": "",
+            "label": "species"
+        },
+        {
+            "field_name": "specimen_custodian",
+            "form_placeholder": "",
+            "label": "specimen_custodian"
+        },
+        {
+            "field_name": "specimen_id",
+            "form_placeholder": "",
+            "label": "specimen_id"
+        },
+        {
+            "field_name": "specimen_id_description",
+            "form_placeholder": "",
+            "label": "specimen_id_description"
+        },
+        {
+            "field_name": "state_or_region",
+            "form_placeholder": "",
+            "label": "state_or_region"
+        },
+        {
+            "field_name": "sub_species",
+            "form_placeholder": "",
+            "label": "sub_species"
+        },
+        {
+            "field_name": "taxon_id",
+            "form_placeholder": "",
+            "label": "taxon_id"
+        },
+        {
+            "field_name": "taxonomic_group",
+            "form_placeholder": "",
+            "label": "taxonomic_group"
+        },
+        {
+            "field_name": "temperature",
+            "form_placeholder": "",
+            "label": "temperature"
+        },
+        {
+            "field_name": "ticket",
+            "form_placeholder": "",
+            "label": "ticket"
+        },
+        {
+            "field_name": "tissue",
+            "form_placeholder": "",
+            "label": "tissue"
+        },
+        {
+            "field_name": "tissue_preservation",
+            "form_placeholder": "",
+            "label": "tissue_preservation"
+        },
+        {
+            "field_name": "tissue_preservation_temperature",
+            "form_placeholder": "",
+            "label": "tissue_preservation_temperature"
+        },
+        {
+            "field_name": "type_status",
+            "form_placeholder": "",
+            "label": "type_status"
+        },
+        {
+            "field_name": "wild_captive",
+            "form_placeholder": "",
+            "label": "wild_captive"
+        },
+        {
+            "field_name": "work_order",
+            "form_placeholder": "",
+            "label": "work_order"
+        }
+    ],
+    "dataset_type": "fungi-metabolomics",
+    "resource_fields": [
+        {
+            "field_name": "name",
+            "label": "Name"
+        },
+        {
+            "field_name": "description",
+            "label": "Description"
+        },
+        {
+            "field_name": "url",
+            "form_placeholder": "http://downloads-qcif.bioplatforms.com/my-dataset.fastq.gz",
+            "label": "Data File",
+            "preset": "resource_url_upload",
+            "upload_label": "Sequence File"
+        },
+        {
+            "field_name": "md5",
+            "label": "MD5"
+        },
+        {
+            "field_name": "sha256",
+            "label": "SHA256"
+        },
+        {
+            "field_name": "size",
+            "label": "File size (bytes)"
+        },
+        {
+            "field_name": "s3etag_8388608",
+            "label": "S3 E-Tag (8MB multipart)"
+        },
+        {
+            "field_name": "s3etag_16777216",
+            "label": "S3 E-Tag (16MB multipart)"
+        },
+        {
+            "field_name": "s3etag_33554432",
+            "label": "S3 E-Tag (32MB multipart)"
+        },
+        {
+            "field_name": "s3etag_67108864",
+            "label": "S3 E-Tag (64MB multipart)"
+        },
+        {
+            "field_name": "s3etag_134217728",
+            "label": "S3 E-Tag (128MB multipart)"
+        },
+        {
+            "field_name": "s3_etag_verified_at",
+            "form_placeholder": "",
+            "label": "S3 E-Tag Verified At",
+            "preset": "datetime"
+        },
+        {
+            "display_property": "dcat:Dataset/dcat:distribution/dcat:Distribution/dcat:format",
+            "field_name": "format",
+            "label": "Format",
+            "preset": "resource_format_autocomplete"
+        },
+        {
+            "field_name": "bioplatforms_dataset_id",
+            "label": "bioplatforms_dataset_id"
+        },
+        {
+            "field_name": "dataset_id",
+            "label": "dataset_id"
+        },
+        {
+            "field_name": "facility_id",
+            "label": "facility_id"
+        },
+        {
+            "field_name": "facility_project_code",
+            "label": "facility_project_code"
+        },
+        {
+            "field_name": "optional_file",
+            "label": "optional_file"
+        },
+        {
+            "field_name": "platform",
+            "label": "platform"
+        },
+        {
+            "field_name": "resource_path",
+            "label": "resource_path"
+        },
+        {
+            "field_name": "resource_type",
+            "label": "resource_type"
+        },
+        {
+            "field_name": "shared_file",
+            "label": "shared_file"
+        }
+    ],
+    "scheming_version": 1
+}
