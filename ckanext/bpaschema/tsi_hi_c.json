@@ -113,6 +113,16 @@
             "label": "associated_media"
         },
         {
+            "field_name": "bait_set_name",
+            "form_placeholder": "",
+            "label": "bait_set_name"
+        },
+        {
+            "field_name": "bait_set_reference",
+            "form_placeholder": "",
+            "label": "bait_set_reference"
+        },
+        {
             "field_name": "barcode_id",
             "form_placeholder": "",
             "label": "barcode_id"
@@ -121,6 +131,11 @@
             "field_name": "base_url",
             "form_placeholder": "",
             "label": "base_url"
+        },
+        {
+            "field_name": "bioplatforms_project",
+            "form_placeholder": "",
+            "label": "bioplatforms_project"
         },
         {
             "field_name": "birth_date",
@@ -246,6 +261,11 @@
             "field_name": "experimental_design",
             "form_placeholder": "",
             "label": "experimental_design"
+        },
+        {
+            "field_name": "facility_code",
+            "form_placeholder": "",
+            "label": "facility_code"
         },
         {
             "field_name": "facility_project_code",
