@@ -263,6 +263,11 @@
             "label": "experimental_design"
         },
         {
+            "field_name": "facility_code",
+            "form_placeholder": "",
+            "label": "facility_code"
+        },
+        {
             "field_name": "facility_project_code",
             "form_placeholder": "",
             "label": "facility_project_code"
@@ -346,6 +351,11 @@
             "field_name": "latitude",
             "form_placeholder": "",
             "label": "latitude"
+        },
+        {
+            "field_name": "library",
+            "form_placeholder": "",
+            "label": "library"
         },
         {
             "field_name": "library_comments",
