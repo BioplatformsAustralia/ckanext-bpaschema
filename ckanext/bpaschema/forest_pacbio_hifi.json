@@ -518,6 +518,11 @@
             "label": "phylum"
         },
         {
+            "field_name": "project_aim",
+            "form_placeholder": "",
+            "label": "project_aim"
+        },
+        {
             "field_name": "sample_collection_type",
             "form_placeholder": "",
             "label": "sample_collection_type"
@@ -541,6 +546,21 @@
             "field_name": "sample_quality",
             "form_placeholder": "",
             "label": "sample_quality"
+        },
+        {
+            "field_name": "sample_submission_date",
+            "form_placeholder": "",
+            "label": "sample_submission_date"
+        },
+        {
+            "field_name": "sample_submitter_email",
+            "form_placeholder": "",
+            "label": "sample_submitter_email"
+        },
+        {
+            "field_name": "sample_submitter_name",
+            "form_placeholder": "",
+            "label": "sample_submitter_name"
         },
         {
             "field_name": "sample_type",
