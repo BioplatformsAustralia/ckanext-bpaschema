@@ -47,7 +47,25 @@ To temporary patch the CKAN configuration for the duration of a test you can use
     def test_some_action():
         pass
 """
-import ckanext.bpaschema.plugin as plugin
+import pytest
 
+import ckan.model as model
+import ckan.tests.factories as factories
+import ckan.tests.helpers as helpers
+import ckan.plugins.toolkit as tk
+import ckanext.bpaschema.plugin as plugin
+from ckan.plugins import plugin_loaded
+
+
+@pytest.mark.ckan_config("ckan.plugins", "bpaschema")
+@pytest.mark.usefixtures("with_plugins")
 def test_plugin():
+    assert plugin_loaded("bpaschema")
+
+
+@pytest.mark.ckan_config("ckan.plugins", "bpaschema")
+@pytest.mark.usefixtures("with_plugins")
+class TestBPASchemaPlugin(object):
     pass
+
+
