@@ -428,6 +428,11 @@
             "label": "library_construction_protocol"
         },
         {
+            "field_name": "library_id",
+            "form_placeholder": "",
+            "label": "library_id"
+        },
+        {
             "field_name": "library_index_id",
             "form_placeholder": "",
             "label": "library_index_id"
