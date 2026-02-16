@@ -16,7 +16,7 @@ install_requires = []
 
 setup(
     name="ckanext-bpaschema",
-    version="4.4.9",
+    version="4.4.10",
     description='''CKAN extension to hold schemas for the Bioplatforms Australian Data Portal''',
     long_description=long_description,
     long_description_content_type="text/markdown",

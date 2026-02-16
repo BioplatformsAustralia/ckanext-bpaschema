@@ -1,0 +1,798 @@
+{
+    "about_url": "https://data.bioplatforms.com/",
+    "dataset_fields": [
+        {
+            "display_property": "dct:publisher",
+            "field_name": "owner_org",
+            "form_snippet": "organization.html",
+            "label": "Organization",
+            "validators": "owner_org_validator unicode"
+        },
+        {
+            "field_name": "title",
+            "form_placeholder": "",
+            "label": "Title",
+            "preset": "title"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:description",
+            "field_name": "notes",
+            "form_placeholder": "eg. Some useful notes about the data",
+            "form_snippet": "markdown.html",
+            "label": "Description"
+        },
+        {
+            "field_name": "name",
+            "form_placeholder": "",
+            "label": "URL",
+            "preset": "dataset_slug"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:keyword",
+            "field_name": "tag_string",
+            "form_attrs": {
+                "data-module": "autocomplete",
+                "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?",
+                "data-module-tags": ""
+            },
+            "form_placeholder": "type to auto-complete",
+            "label": "Tags",
+            "validators": "ignore_missing tag_string_convert"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:spatial",
+            "display_snippet": "spatial.html",
+            "field_name": "spatial",
+            "form_placeholder": "Paste a valid GeoJSON geometry",
+            "label": "Geospatial Coverage"
+        },
+        {
+            "display_property": "dcat:Dataset/dcat:distribution/dcat:Distribution/dct:license",
+            "field_name": "license_id",
+            "form_snippet": "license.html",
+            "label": "License"
+        },
+        {
+            "field_name": "resource_permissions",
+            "form_placeholder": "used by ckanext-initiatives",
+            "label": "Resource Permissions"
+        },
+        {
+            "field_name": "access_control_reason",
+            "form_placeholder": "used by ckanext-bpatheme",
+            "label": "Access Control Reason"
+        },
+        {
+            "field_name": "access_control_date",
+            "form_placeholder": "used by ckanext-bpatheme",
+            "label": "Access Control Date"
+        },
+        {
+            "field_name": "access_control_mode",
+            "form_placeholder": "used by ckanext-bpatheme",
+            "label": "Access Control Mode"
+        },
+        {
+            "field_name": "sequence_data_type",
+            "form_placeholder": "used by ckanext-bpatheme",
+            "label": "Sequence Data Type"
+        },
+        {
+            "field_name": "related_data",
+            "form_placeholder": "used by ckanext-bpatheme",
+            "label": "Related Data"
+        },
+        {
+            "field_name": "analysis_software",
+            "form_placeholder": "",
+            "label": "analysis_software"
+        },
+        {
+            "field_name": "ancillary_notes",
+            "form_placeholder": "",
+            "label": "ancillary_notes"
+        },
+        {
+            "field_name": "associated_media",
+            "form_placeholder": "",
+            "label": "associated_media"
+        },
+        {
+            "field_name": "bait_set_name",
+            "form_placeholder": "",
+            "label": "bait_set_name"
+        },
+        {
+            "field_name": "bait_set_reference",
+            "form_placeholder": "",
+            "label": "bait_set_reference"
+        },
+        {
+            "field_name": "base_url",
+            "form_placeholder": "",
+            "label": "base_url"
+        },
+        {
+            "field_name": "bioplatforms_dataset_id",
+            "form_placeholder": "",
+            "label": "bioplatforms_dataset_id"
+        },
+        {
+            "field_name": "bioplatforms_library_id",
+            "form_placeholder": "",
+            "label": "bioplatforms_library_id"
+        },
+        {
+            "field_name": "bioplatforms_project",
+            "form_placeholder": "",
+            "label": "bioplatforms_project"
+        },
+        {
+            "field_name": "bioplatforms_project_code",
+            "form_placeholder": "",
+            "label": "bioplatforms_project_code"
+        },
+        {
+            "field_name": "bioplatforms_sample_id",
+            "form_placeholder": "",
+            "label": "bioplatforms_sample_id"
+        },
+        {
+            "field_name": "birth_date",
+            "form_placeholder": "",
+            "label": "birth_date"
+        },
+        {
+            "field_name": "ccg_jira_ticket",
+            "form_placeholder": "",
+            "label": "ccg_jira_ticket"
+        },
+        {
+            "field_name": "cell_postion",
+            "form_placeholder": "",
+            "label": "cell_postion"
+        },
+        {
+            "field_name": "class",
+            "form_placeholder": "",
+            "label": "class"
+        },
+        {
+            "field_name": "collection_date",
+            "form_placeholder": "",
+            "label": "collection_date"
+        },
+        {
+            "field_name": "collection_method",
+            "form_placeholder": "",
+            "label": "collection_method"
+        },
+        {
+            "field_name": "collection_permit",
+            "form_placeholder": "",
+            "label": "collection_permit"
+        },
+        {
+            "field_name": "collector",
+            "form_placeholder": "",
+            "label": "collector"
+        },
+        {
+            "field_name": "collector_sample_id",
+            "form_placeholder": "",
+            "label": "collector_sample_id"
+        },
+        {
+            "field_name": "common_name",
+            "form_placeholder": "",
+            "label": "common_name"
+        },
+        {
+            "field_name": "coord_uncertainty_metres",
+            "form_placeholder": "",
+            "label": "coord_uncertainty_metres"
+        },
+        {
+            "field_name": "country",
+            "form_placeholder": "",
+            "label": "country"
+        },
+        {
+            "field_name": "data_context",
+            "form_placeholder": "",
+            "label": "data_context"
+        },
+        {
+            "field_name": "data_type",
+            "form_placeholder": "",
+            "label": "data_type"
+        },
+        {
+            "field_name": "date_data_published",
+            "form_placeholder": "",
+            "label": "date_data_published"
+        },
+        {
+            "field_name": "date_of_transfer",
+            "form_placeholder": "",
+            "label": "date_of_transfer"
+        },
+        {
+            "field_name": "date_of_transfer_to_archive",
+            "form_placeholder": "",
+            "label": "date_of_transfer_to_archive"
+        },
+        {
+            "field_name": "death_date",
+            "form_placeholder": "",
+            "label": "death_date"
+        },
+        {
+            "field_name": "decimal_latitude_public",
+            "form_placeholder": "",
+            "label": "decimal_latitude_public"
+        },
+        {
+            "field_name": "decimal_longitude_public",
+            "form_placeholder": "",
+            "label": "decimal_longitude_public"
+        },
+        {
+            "field_name": "description",
+            "form_placeholder": "",
+            "label": "description"
+        },
+        {
+            "field_name": "dna_treatment",
+            "form_placeholder": "",
+            "label": "dna_treatment"
+        },
+        {
+            "field_name": "download",
+            "form_placeholder": "",
+            "label": "download"
+        },
+        {
+            "field_name": "experimental_design",
+            "form_placeholder": "",
+            "label": "experimental_design"
+        },
+        {
+            "field_name": "facility",
+            "form_placeholder": "",
+            "label": "facility"
+        },
+        {
+            "field_name": "facility_project_code",
+            "form_placeholder": "",
+            "label": "facility_project_code"
+        },
+        {
+            "field_name": "facility_sample_id",
+            "form_placeholder": "",
+            "label": "facility_sample_id"
+        },
+        {
+            "field_name": "family",
+            "form_placeholder": "",
+            "label": "family"
+        },
+        {
+            "field_name": "fast5_compression",
+            "form_placeholder": "",
+            "label": "fast5_compression"
+        },
+        {
+            "field_name": "flowcell_id",
+            "form_placeholder": "",
+            "label": "flowcell_id"
+        },
+        {
+            "field_name": "flowcell_type",
+            "form_placeholder": "",
+            "label": "flowcell_type"
+        },
+        {
+            "field_name": "folder_name",
+            "form_placeholder": "",
+            "label": "folder_name"
+        },
+        {
+            "field_name": "genotypic_sex",
+            "form_placeholder": "",
+            "label": "genotypic_sex"
+        },
+        {
+            "field_name": "genus",
+            "form_placeholder": "",
+            "label": "genus"
+        },
+        {
+            "field_name": "health_state",
+            "form_placeholder": "",
+            "label": "health_state"
+        },
+        {
+            "field_name": "host_common_name",
+            "form_placeholder": "",
+            "label": "host_common_name"
+        },
+        {
+            "field_name": "host_family",
+            "form_placeholder": "",
+            "label": "host_family"
+        },
+        {
+            "field_name": "host_organ",
+            "form_placeholder": "",
+            "label": "host_organ"
+        },
+        {
+            "field_name": "host_scientific_name",
+            "form_placeholder": "",
+            "label": "host_scientific_name"
+        },
+        {
+            "field_name": "host_status",
+            "form_placeholder": "",
+            "label": "host_status"
+        },
+        {
+            "field_name": "host_symptom",
+            "form_placeholder": "",
+            "label": "host_symptom"
+        },
+        {
+            "field_name": "identified_by",
+            "form_placeholder": "",
+            "label": "identified_by"
+        },
+        {
+            "field_name": "individual_or_pooled_samples",
+            "form_placeholder": "",
+            "label": "individual_or_pooled_samples"
+        },
+        {
+            "field_name": "insert_size_range",
+            "form_placeholder": "",
+            "label": "insert_size_range"
+        },
+        {
+            "field_name": "isolate",
+            "form_placeholder": "",
+            "label": "isolate"
+        },
+        {
+            "field_name": "library_comments",
+            "form_placeholder": "",
+            "label": "library_comments"
+        },
+        {
+            "field_name": "library_construction_protocol",
+            "form_placeholder": "",
+            "label": "library_construction_protocol"
+        },
+        {
+            "field_name": "library_index_id",
+            "form_placeholder": "",
+            "label": "library_index_id"
+        },
+        {
+            "field_name": "library_index_id_dual",
+            "form_placeholder": "",
+            "label": "library_index_id_dual"
+        },
+        {
+            "field_name": "library_index_seq",
+            "form_placeholder": "",
+            "label": "library_index_seq"
+        },
+        {
+            "field_name": "library_index_seq_dual",
+            "form_placeholder": "",
+            "label": "library_index_seq_dual"
+        },
+        {
+            "field_name": "library_layout",
+            "form_placeholder": "",
+            "label": "library_layout"
+        },
+        {
+            "field_name": "library_location",
+            "form_placeholder": "",
+            "label": "library_location"
+        },
+        {
+            "field_name": "library_ng_ul",
+            "form_placeholder": "",
+            "label": "library_ng_ul"
+        },
+        {
+            "field_name": "library_oligo_sequence",
+            "form_placeholder": "",
+            "label": "library_oligo_sequence"
+        },
+        {
+            "field_name": "library_oligo_sequence_dual",
+            "form_placeholder": "",
+            "label": "library_oligo_sequence_dual"
+        },
+        {
+            "field_name": "library_pcr_cycles",
+            "form_placeholder": "",
+            "label": "library_pcr_cycles"
+        },
+        {
+            "field_name": "library_pcr_reps",
+            "form_placeholder": "",
+            "label": "library_pcr_reps"
+        },
+        {
+            "field_name": "library_prep_date",
+            "form_placeholder": "",
+            "label": "library_prep_date"
+        },
+        {
+            "field_name": "library_prepared_by",
+            "form_placeholder": "",
+            "label": "library_prepared_by"
+        },
+        {
+            "field_name": "library_selection",
+            "form_placeholder": "",
+            "label": "library_selection"
+        },
+        {
+            "field_name": "library_source",
+            "form_placeholder": "",
+            "label": "library_source"
+        },
+        {
+            "field_name": "library_strategy",
+            "form_placeholder": "",
+            "label": "library_strategy"
+        },
+        {
+            "field_name": "library_type",
+            "form_placeholder": "",
+            "label": "library_type"
+        },
+        {
+            "field_name": "life_stage",
+            "form_placeholder": "",
+            "label": "life_stage"
+        },
+        {
+            "field_name": "location_info_restricted",
+            "form_placeholder": "",
+            "label": "location_info_restricted"
+        },
+        {
+            "field_name": "location_text",
+            "form_placeholder": "",
+            "label": "location_text"
+        },
+        {
+            "field_name": "material_conc_ng_ul",
+            "form_placeholder": "",
+            "label": "material_conc_ng_ul"
+        },
+        {
+            "field_name": "material_extracted_by",
+            "form_placeholder": "",
+            "label": "material_extracted_by"
+        },
+        {
+            "field_name": "material_extraction_date",
+            "form_placeholder": "",
+            "label": "material_extraction_date"
+        },
+        {
+            "field_name": "material_extraction_method",
+            "form_placeholder": "",
+            "label": "material_extraction_method"
+        },
+        {
+            "field_name": "material_extraction_type",
+            "form_placeholder": "",
+            "label": "material_extraction_type"
+        },
+        {
+            "field_name": "metadata_revision_date",
+            "form_placeholder": "",
+            "label": "metadata_revision_date"
+        },
+        {
+            "field_name": "metadata_revision_filename",
+            "form_placeholder": "",
+            "label": "metadata_revision_filename"
+        },
+        {
+            "field_name": "model_base_caller",
+            "form_placeholder": "",
+            "label": "model_base_caller"
+        },
+        {
+            "field_name": "movie_length",
+            "form_placeholder": "",
+            "label": "movie_length"
+        },
+        {
+            "field_name": "n_libraries_pooled",
+            "form_placeholder": "",
+            "label": "n_libraries_pooled"
+        },
+        {
+            "field_name": "note",
+            "form_placeholder": "",
+            "label": "note"
+        },
+        {
+            "field_name": "order",
+            "form_placeholder": "",
+            "label": "order"
+        },
+        {
+            "field_name": "phenotypic_sex",
+            "form_placeholder": "",
+            "label": "phenotypic_sex"
+        },
+        {
+            "field_name": "phylum",
+            "form_placeholder": "",
+            "label": "phylum"
+        },
+        {
+            "field_name": "project_lead",
+            "form_placeholder": "",
+            "label": "project_lead"
+        },
+        {
+            "field_name": "run_number",
+            "form_placeholder": "",
+            "label": "run_number"
+        },
+        {
+            "field_name": "sample_collection_type",
+            "form_placeholder": "",
+            "label": "sample_collection_type"
+        },
+        {
+            "field_name": "sample_custodian",
+            "form_placeholder": "",
+            "label": "sample_custodian"
+        },
+        {
+            "field_name": "sample_quality",
+            "form_placeholder": "",
+            "label": "sample_quality"
+        },
+        {
+            "field_name": "sample_type",
+            "form_placeholder": "",
+            "label": "sample_type"
+        },
+        {
+            "field_name": "scientific_name",
+            "form_placeholder": "",
+            "label": "scientific_name"
+        },
+        {
+            "field_name": "scientific_name_authorship",
+            "form_placeholder": "",
+            "label": "scientific_name_authorship"
+        },
+        {
+            "field_name": "scientific_name_note",
+            "form_placeholder": "",
+            "label": "scientific_name_note"
+        },
+        {
+            "field_name": "sequencing_facility",
+            "form_placeholder": "",
+            "label": "sequencing_facility"
+        },
+        {
+            "field_name": "sequencing_kit_chemistry_version",
+            "form_placeholder": "",
+            "label": "sequencing_kit_chemistry_version"
+        },
+        {
+            "field_name": "sequencing_model",
+            "form_placeholder": "",
+            "label": "sequencing_model"
+        },
+        {
+            "field_name": "sequencing_platform",
+            "form_placeholder": "",
+            "label": "sequencing_platform"
+        },
+        {
+            "field_name": "source_population",
+            "form_placeholder": "",
+            "label": "source_population"
+        },
+        {
+            "field_name": "species",
+            "form_placeholder": "",
+            "label": "species"
+        },
+        {
+            "field_name": "specimen_custodian",
+            "form_placeholder": "",
+            "label": "specimen_custodian"
+        },
+        {
+            "field_name": "specimen_id",
+            "form_placeholder": "",
+            "label": "specimen_id"
+        },
+        {
+            "field_name": "specimen_id_description",
+            "form_placeholder": "",
+            "label": "specimen_id_description"
+        },
+        {
+            "field_name": "state_or_region",
+            "form_placeholder": "",
+            "label": "state_or_region"
+        },
+        {
+            "field_name": "sub_species",
+            "form_placeholder": "",
+            "label": "sub_species"
+        },
+        {
+            "field_name": "taxon_id",
+            "form_placeholder": "",
+            "label": "taxon_id"
+        },
+        {
+            "field_name": "taxonomic_group",
+            "form_placeholder": "",
+            "label": "taxonomic_group"
+        },
+        {
+            "field_name": "ticket",
+            "form_placeholder": "",
+            "label": "ticket"
+        },
+        {
+            "field_name": "tissue",
+            "form_placeholder": "",
+            "label": "tissue"
+        },
+        {
+            "field_name": "tissue_preservation",
+            "form_placeholder": "",
+            "label": "tissue_preservation"
+        },
+        {
+            "field_name": "tissue_preservation_temperature",
+            "form_placeholder": "",
+            "label": "tissue_preservation_temperature"
+        },
+        {
+            "field_name": "type_status",
+            "form_placeholder": "",
+            "label": "type_status"
+        },
+        {
+            "field_name": "wild_captive",
+            "form_placeholder": "",
+            "label": "wild_captive"
+        },
+        {
+            "field_name": "work_order",
+            "form_placeholder": "",
+            "label": "work_order"
+        }
+    ],
+    "dataset_type": "ad-ont-promethion",
+    "resource_fields": [
+        {
+            "field_name": "name",
+            "label": "Name"
+        },
+        {
+            "field_name": "description",
+            "label": "Description"
+        },
+        {
+            "field_name": "url",
+            "form_placeholder": "http://downloads-qcif.bioplatforms.com/my-dataset.fastq.gz",
+            "label": "Data File",
+            "preset": "resource_url_upload",
+            "upload_label": "Sequence File"
+        },
+        {
+            "field_name": "md5",
+            "label": "MD5"
+        },
+        {
+            "field_name": "sha256",
+            "label": "SHA256"
+        },
+        {
+            "field_name": "size",
+            "label": "File size (bytes)"
+        },
+        {
+            "field_name": "s3etag_8388608",
+            "label": "S3 E-Tag (8MB multipart)"
+        },
+        {
+            "field_name": "s3etag_16777216",
+            "label": "S3 E-Tag (16MB multipart)"
+        },
+        {
+            "field_name": "s3etag_33554432",
+            "label": "S3 E-Tag (32MB multipart)"
+        },
+        {
+            "field_name": "s3etag_67108864",
+            "label": "S3 E-Tag (64MB multipart)"
+        },
+        {
+            "field_name": "s3etag_134217728",
+            "label": "S3 E-Tag (128MB multipart)"
+        },
+        {
+            "field_name": "s3_etag_verified_at",
+            "form_placeholder": "",
+            "label": "S3 E-Tag Verified At",
+            "preset": "datetime"
+        },
+        {
+            "display_property": "dcat:Dataset/dcat:distribution/dcat:Distribution/dcat:format",
+            "field_name": "format",
+            "label": "Format",
+            "preset": "resource_format_autocomplete"
+        },
+        {
+            "field_name": "archive_type",
+            "label": "archive_type"
+        },
+        {
+            "field_name": "bioplatforms_library_id",
+            "label": "bioplatforms_library_id"
+        },
+        {
+            "field_name": "experiment_run_name",
+            "label": "experiment_run_name"
+        },
+        {
+            "field_name": "facility_id",
+            "label": "facility_id"
+        },
+        {
+            "field_name": "flowcell_id",
+            "label": "flowcell_id"
+        },
+        {
+            "field_name": "library_id",
+            "label": "library_id"
+        },
+        {
+            "field_name": "optional_file",
+            "label": "optional_file"
+        },
+        {
+            "field_name": "resource_path",
+            "label": "resource_path"
+        },
+        {
+            "field_name": "resource_type",
+            "label": "resource_type"
+        },
+        {
+            "field_name": "run_number",
+            "label": "run_number"
+        },
+        {
+            "field_name": "shared_file",
+            "label": "shared_file"
+        }
+    ],
+    "scheming_version": 1
+}
