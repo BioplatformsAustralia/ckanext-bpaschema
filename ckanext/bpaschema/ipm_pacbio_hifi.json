@@ -293,6 +293,11 @@
             "label": "experimental_design"
         },
         {
+            "field_name": "extraction_protocol_doi",
+            "form_placeholder": "",
+            "label": "extraction_protocol_doi"
+        },
+        {
             "field_name": "facility",
             "form_placeholder": "",
             "label": "facility"
@@ -601,6 +606,11 @@
             "field_name": "note",
             "form_placeholder": "",
             "label": "note"
+        },
+        {
+            "field_name": "nucleic_acid_ng",
+            "form_placeholder": "",
+            "label": "nucleic_acid_ng"
         },
         {
             "field_name": "order",
