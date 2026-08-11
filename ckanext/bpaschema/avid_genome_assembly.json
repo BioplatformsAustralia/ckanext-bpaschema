@@ -108,9 +108,9 @@
             "label": "base_url"
         },
         {
-            "field_name": "bioplatforms_assembly_identifier",
+            "field_name": "bioplatforms_assembly_id",
             "form_placeholder": "",
-            "label": "bioplatforms_assembly_identifier"
+            "label": "bioplatforms_assembly_id"
         },
         {
             "field_name": "bioplatforms_dataset_id",
@@ -471,6 +471,16 @@
             "field_name": "phylum",
             "form_placeholder": "",
             "label": "phylum"
+        },
+        {
+            "field_name": "project_description",
+            "form_placeholder": "",
+            "label": "project_description"
+        },
+        {
+            "field_name": "project_title",
+            "form_placeholder": "",
+            "label": "project_title"
         },
         {
             "field_name": "sample_collection_type",
