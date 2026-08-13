@@ -268,6 +268,10 @@
             "label": "shared_file"
         },
         {
+            "field_name": "unique_dual_index",
+            "label": "unique_dual_index"
+        },
+        {
             "field_name": "vendor",
             "label": "vendor"
         }
