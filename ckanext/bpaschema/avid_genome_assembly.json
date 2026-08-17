@@ -93,9 +93,19 @@
             "label": "ancillary_notes"
         },
         {
+            "field_name": "assembly_date",
+            "form_placeholder": "",
+            "label": "assembly_date"
+        },
+        {
             "field_name": "assembly_tolid",
             "form_placeholder": "",
             "label": "assembly_tolid"
+        },
+        {
+            "field_name": "assembly_version",
+            "form_placeholder": "",
+            "label": "assembly_version"
         },
         {
             "field_name": "associated_media",
@@ -131,6 +141,16 @@
             "field_name": "bioplatforms_sample_id",
             "form_placeholder": "",
             "label": "bioplatforms_sample_id"
+        },
+        {
+            "field_name": "bioproject_description",
+            "form_placeholder": "",
+            "label": "bioproject_description"
+        },
+        {
+            "field_name": "bioproject_title",
+            "form_placeholder": "",
+            "label": "bioproject_title"
         },
         {
             "field_name": "birth_date",
@@ -473,14 +493,9 @@
             "label": "phylum"
         },
         {
-            "field_name": "project_description",
+            "field_name": "reuse_preferences",
             "form_placeholder": "",
-            "label": "project_description"
-        },
-        {
-            "field_name": "project_title",
-            "form_placeholder": "",
-            "label": "project_title"
+            "label": "reuse_preferences"
         },
         {
             "field_name": "sample_collection_type",
@@ -586,11 +601,6 @@
             "field_name": "ticket",
             "form_placeholder": "",
             "label": "ticket"
-        },
-        {
-            "field_name": "timestamp",
-            "form_placeholder": "",
-            "label": "timestamp"
         },
         {
             "field_name": "tissue",
