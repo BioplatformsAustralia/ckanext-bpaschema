@@ -423,6 +423,11 @@
             "label": "library_construction_protocol"
         },
         {
+            "field_name": "library_id",
+            "form_placeholder": "",
+            "label": "library_id"
+        },
+        {
             "field_name": "library_index_id",
             "form_placeholder": "",
             "label": "library_index_id"
@@ -621,6 +626,11 @@
             "field_name": "project_lead",
             "form_placeholder": "",
             "label": "project_lead"
+        },
+        {
+            "field_name": "reuse_preferences",
+            "form_placeholder": "",
+            "label": "reuse_preferences"
         },
         {
             "field_name": "sample_collection_type",
