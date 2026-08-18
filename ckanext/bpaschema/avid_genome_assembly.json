@@ -93,9 +93,9 @@
             "label": "ancillary_notes"
         },
         {
-            "field_name": "assembly_date",
+            "field_name": "assembly_timestamp",
             "form_placeholder": "",
-            "label": "assembly_date"
+            "label": "assembly_timestamp"
         },
         {
             "field_name": "assembly_tolid",
