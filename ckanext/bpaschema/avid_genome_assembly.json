@@ -83,14 +83,14 @@
             "label": "Related Data"
         },
         {
-            "field_name": "altitude",
+            "field_name": "assembly_size_primary",
             "form_placeholder": "",
-            "label": "altitude"
+            "label": "assembly_size_primary"
         },
         {
-            "field_name": "ancillary_notes",
+            "field_name": "assembly_size_secondary",
             "form_placeholder": "",
-            "label": "ancillary_notes"
+            "label": "assembly_size_secondary"
         },
         {
             "field_name": "assembly_timestamp",
@@ -106,11 +106,6 @@
             "field_name": "assembly_version",
             "form_placeholder": "",
             "label": "assembly_version"
-        },
-        {
-            "field_name": "associated_media",
-            "form_placeholder": "",
-            "label": "associated_media"
         },
         {
             "field_name": "base_url",
@@ -153,24 +148,19 @@
             "label": "bioproject_title"
         },
         {
-            "field_name": "birth_date",
-            "form_placeholder": "",
-            "label": "birth_date"
-        },
-        {
             "field_name": "bpa_package_id",
             "form_placeholder": "",
             "label": "bpa_package_id"
         },
         {
+            "field_name": "busco_string",
+            "form_placeholder": "",
+            "label": "busco_string"
+        },
+        {
             "field_name": "ccg_jira_ticket",
             "form_placeholder": "",
             "label": "ccg_jira_ticket"
-        },
-        {
-            "field_name": "class",
-            "form_placeholder": "",
-            "label": "class"
         },
         {
             "field_name": "code_repository",
@@ -181,46 +171,6 @@
             "field_name": "code_repository_hash",
             "form_placeholder": "",
             "label": "code_repository_hash"
-        },
-        {
-            "field_name": "collection_date",
-            "form_placeholder": "",
-            "label": "collection_date"
-        },
-        {
-            "field_name": "collection_method",
-            "form_placeholder": "",
-            "label": "collection_method"
-        },
-        {
-            "field_name": "collection_permit",
-            "form_placeholder": "",
-            "label": "collection_permit"
-        },
-        {
-            "field_name": "collector",
-            "form_placeholder": "",
-            "label": "collector"
-        },
-        {
-            "field_name": "collector_sample_id",
-            "form_placeholder": "",
-            "label": "collector_sample_id"
-        },
-        {
-            "field_name": "common_name",
-            "form_placeholder": "",
-            "label": "common_name"
-        },
-        {
-            "field_name": "coord_uncertainty_metres",
-            "form_placeholder": "",
-            "label": "coord_uncertainty_metres"
-        },
-        {
-            "field_name": "country",
-            "form_placeholder": "",
-            "label": "country"
         },
         {
             "field_name": "data_type",
@@ -248,26 +198,6 @@
             "label": "date_of_transfer_to_archive"
         },
         {
-            "field_name": "death_date",
-            "form_placeholder": "",
-            "label": "death_date"
-        },
-        {
-            "field_name": "decimal_latitude_public",
-            "form_placeholder": "",
-            "label": "decimal_latitude_public"
-        },
-        {
-            "field_name": "decimal_longitude_public",
-            "form_placeholder": "",
-            "label": "decimal_longitude_public"
-        },
-        {
-            "field_name": "depth",
-            "form_placeholder": "",
-            "label": "depth"
-        },
-        {
             "field_name": "description",
             "form_placeholder": "",
             "label": "description"
@@ -278,99 +208,14 @@
             "label": "download"
         },
         {
-            "field_name": "env_broad_scale",
-            "form_placeholder": "",
-            "label": "env_broad_scale"
-        },
-        {
-            "field_name": "env_local_scale",
-            "form_placeholder": "",
-            "label": "env_local_scale"
-        },
-        {
-            "field_name": "env_medium",
-            "form_placeholder": "",
-            "label": "env_medium"
-        },
-        {
-            "field_name": "extraction_protocol_doi",
-            "form_placeholder": "",
-            "label": "extraction_protocol_doi"
-        },
-        {
             "field_name": "facility",
             "form_placeholder": "",
             "label": "facility"
         },
         {
-            "field_name": "family",
-            "form_placeholder": "",
-            "label": "family"
-        },
-        {
             "field_name": "folder_name",
             "form_placeholder": "",
             "label": "folder_name"
-        },
-        {
-            "field_name": "genotypic_sex",
-            "form_placeholder": "",
-            "label": "genotypic_sex"
-        },
-        {
-            "field_name": "genus",
-            "form_placeholder": "",
-            "label": "genus"
-        },
-        {
-            "field_name": "habitat",
-            "form_placeholder": "",
-            "label": "habitat"
-        },
-        {
-            "field_name": "health_state",
-            "form_placeholder": "",
-            "label": "health_state"
-        },
-        {
-            "field_name": "host_common_name",
-            "form_placeholder": "",
-            "label": "host_common_name"
-        },
-        {
-            "field_name": "host_family",
-            "form_placeholder": "",
-            "label": "host_family"
-        },
-        {
-            "field_name": "host_organ",
-            "form_placeholder": "",
-            "label": "host_organ"
-        },
-        {
-            "field_name": "host_scientific_name",
-            "form_placeholder": "",
-            "label": "host_scientific_name"
-        },
-        {
-            "field_name": "host_status",
-            "form_placeholder": "",
-            "label": "host_status"
-        },
-        {
-            "field_name": "host_symptom",
-            "form_placeholder": "",
-            "label": "host_symptom"
-        },
-        {
-            "field_name": "identified_by",
-            "form_placeholder": "",
-            "label": "identified_by"
-        },
-        {
-            "field_name": "indigenous_location",
-            "form_placeholder": "",
-            "label": "indigenous_location"
         },
         {
             "field_name": "insdc_assembly_accession_primary",
@@ -398,74 +243,34 @@
             "label": "insdc_status"
         },
         {
-            "field_name": "isolate",
+            "field_name": "n50_length_primary",
             "form_placeholder": "",
-            "label": "isolate"
+            "label": "n50_length_primary"
         },
         {
-            "field_name": "latitude",
+            "field_name": "n50_length_secondary",
             "form_placeholder": "",
-            "label": "latitude"
+            "label": "n50_length_secondary"
         },
         {
-            "field_name": "lifestage",
+            "field_name": "ncbi_common_name",
             "form_placeholder": "",
-            "label": "lifestage"
+            "label": "ncbi_common_name"
         },
         {
-            "field_name": "location_info_restricted",
+            "field_name": "ncbi_family",
             "form_placeholder": "",
-            "label": "location_info_restricted"
+            "label": "ncbi_family"
         },
         {
-            "field_name": "location_text",
+            "field_name": "ncbi_genus",
             "form_placeholder": "",
-            "label": "location_text"
+            "label": "ncbi_genus"
         },
         {
-            "field_name": "longitude",
+            "field_name": "ncbi_species",
             "form_placeholder": "",
-            "label": "longitude"
-        },
-        {
-            "field_name": "material_conc_ng_ul",
-            "form_placeholder": "",
-            "label": "material_conc_ng_ul"
-        },
-        {
-            "field_name": "material_extracted_by",
-            "form_placeholder": "",
-            "label": "material_extracted_by"
-        },
-        {
-            "field_name": "material_extraction_date",
-            "form_placeholder": "",
-            "label": "material_extraction_date"
-        },
-        {
-            "field_name": "material_extraction_method",
-            "form_placeholder": "",
-            "label": "material_extraction_method"
-        },
-        {
-            "field_name": "material_extraction_type",
-            "form_placeholder": "",
-            "label": "material_extraction_type"
-        },
-        {
-            "field_name": "metadata_revision_date",
-            "form_placeholder": "",
-            "label": "metadata_revision_date"
-        },
-        {
-            "field_name": "metadata_revision_filename",
-            "form_placeholder": "",
-            "label": "metadata_revision_filename"
-        },
-        {
-            "field_name": "method_sex_determination",
-            "form_placeholder": "",
-            "label": "method_sex_determination"
+            "label": "ncbi_species"
         },
         {
             "field_name": "note",
@@ -473,114 +278,19 @@
             "label": "note"
         },
         {
-            "field_name": "nucleic_acid_ng",
-            "form_placeholder": "",
-            "label": "nucleic_acid_ng"
-        },
-        {
-            "field_name": "order",
-            "form_placeholder": "",
-            "label": "order"
-        },
-        {
-            "field_name": "phenotypic_sex",
-            "form_placeholder": "",
-            "label": "phenotypic_sex"
-        },
-        {
-            "field_name": "phylum",
-            "form_placeholder": "",
-            "label": "phylum"
-        },
-        {
-            "field_name": "reuse_preferences",
-            "form_placeholder": "",
-            "label": "reuse_preferences"
-        },
-        {
-            "field_name": "sample_collection_type",
-            "form_placeholder": "",
-            "label": "sample_collection_type"
-        },
-        {
-            "field_name": "sample_custodian",
-            "form_placeholder": "",
-            "label": "sample_custodian"
-        },
-        {
-            "field_name": "sample_id",
-            "form_placeholder": "",
-            "label": "sample_id"
-        },
-        {
-            "field_name": "sample_id_description",
-            "form_placeholder": "",
-            "label": "sample_id_description"
-        },
-        {
-            "field_name": "sample_quality",
-            "form_placeholder": "",
-            "label": "sample_quality"
-        },
-        {
-            "field_name": "sample_type",
-            "form_placeholder": "",
-            "label": "sample_type"
-        },
-        {
             "field_name": "scientific_name",
             "form_placeholder": "",
             "label": "scientific_name"
         },
         {
-            "field_name": "scientific_name_authorship",
+            "field_name": "sequence_data_types",
             "form_placeholder": "",
-            "label": "scientific_name_authorship"
+            "label": "sequence_data_types"
         },
         {
-            "field_name": "scientific_name_note",
+            "field_name": "sequencing_depth",
             "form_placeholder": "",
-            "label": "scientific_name_note"
-        },
-        {
-            "field_name": "sex_certainty",
-            "form_placeholder": "",
-            "label": "sex_certainty"
-        },
-        {
-            "field_name": "source_population",
-            "form_placeholder": "",
-            "label": "source_population"
-        },
-        {
-            "field_name": "species",
-            "form_placeholder": "",
-            "label": "species"
-        },
-        {
-            "field_name": "specimen_custodian",
-            "form_placeholder": "",
-            "label": "specimen_custodian"
-        },
-        {
-            "field_name": "specimen_id",
-            "form_placeholder": "",
-            "label": "specimen_id"
-        },
-        {
-            "field_name": "specimen_id_description",
-            "form_placeholder": "",
-            "label": "specimen_id_description"
-        },
-        {
-            "field_name": "state_or_region",
-            "form_placeholder": "",
-            "label": "state_or_region"
-        },
-        {
-            "field_name": "sub_species",
-            "form_placeholder": "",
-            "label": "sub_species"
+            "label": "sequencing_depth"
         },
         {
             "field_name": "taxon_id",
@@ -588,44 +298,9 @@
             "label": "taxon_id"
         },
         {
-            "field_name": "taxonomic_group",
-            "form_placeholder": "",
-            "label": "taxonomic_group"
-        },
-        {
-            "field_name": "temperature",
-            "form_placeholder": "",
-            "label": "temperature"
-        },
-        {
             "field_name": "ticket",
             "form_placeholder": "",
             "label": "ticket"
-        },
-        {
-            "field_name": "tissue",
-            "form_placeholder": "",
-            "label": "tissue"
-        },
-        {
-            "field_name": "tissue_preservation",
-            "form_placeholder": "",
-            "label": "tissue_preservation"
-        },
-        {
-            "field_name": "tissue_preservation_temperature",
-            "form_placeholder": "",
-            "label": "tissue_preservation_temperature"
-        },
-        {
-            "field_name": "type_status",
-            "form_placeholder": "",
-            "label": "type_status"
-        },
-        {
-            "field_name": "wild_captive",
-            "form_placeholder": "",
-            "label": "wild_captive"
         }
     ],
     "dataset_type": "avid-genome-assembly",
