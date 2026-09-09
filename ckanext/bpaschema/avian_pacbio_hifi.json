@@ -278,6 +278,11 @@
             "label": "experimental_design"
         },
         {
+            "field_name": "extraction_protocol_doi",
+            "form_placeholder": "",
+            "label": "extraction_protocol_doi"
+        },
+        {
             "field_name": "facility_project_code",
             "form_placeholder": "",
             "label": "facility_project_code"
@@ -296,11 +301,6 @@
             "field_name": "fast5_compression",
             "form_placeholder": "",
             "label": "fast5_compression"
-        },
-        {
-            "field_name": "file_count",
-            "form_placeholder": "",
-            "label": "file_count"
         },
         {
             "field_name": "file_name",
@@ -348,6 +348,36 @@
             "label": "health_state"
         },
         {
+            "field_name": "host_common_name",
+            "form_placeholder": "",
+            "label": "host_common_name"
+        },
+        {
+            "field_name": "host_family",
+            "form_placeholder": "",
+            "label": "host_family"
+        },
+        {
+            "field_name": "host_organ",
+            "form_placeholder": "",
+            "label": "host_organ"
+        },
+        {
+            "field_name": "host_scientific_name",
+            "form_placeholder": "",
+            "label": "host_scientific_name"
+        },
+        {
+            "field_name": "host_status",
+            "form_placeholder": "",
+            "label": "host_status"
+        },
+        {
+            "field_name": "host_symptom",
+            "form_placeholder": "",
+            "label": "host_symptom"
+        },
+        {
             "field_name": "identified_by",
             "form_placeholder": "",
             "label": "identified_by"
@@ -361,6 +391,11 @@
             "field_name": "insert_size_range",
             "form_placeholder": "",
             "label": "insert_size_range"
+        },
+        {
+            "field_name": "isolate",
+            "form_placeholder": "",
+            "label": "isolate"
         },
         {
             "field_name": "latitude",
@@ -548,6 +583,11 @@
             "label": "note"
         },
         {
+            "field_name": "nucleic_acid_ng",
+            "form_placeholder": "",
+            "label": "nucleic_acid_ng"
+        },
+        {
             "field_name": "order",
             "form_placeholder": "",
             "label": "order"
@@ -571,6 +611,11 @@
             "field_name": "project_lead",
             "form_placeholder": "",
             "label": "project_lead"
+        },
+        {
+            "field_name": "reuse_preferences",
+            "form_placeholder": "",
+            "label": "reuse_preferences"
         },
         {
             "field_name": "sample_collection_type",
