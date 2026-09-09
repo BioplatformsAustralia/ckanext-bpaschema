@@ -153,9 +153,14 @@
             "label": "bpa_package_id"
         },
         {
-            "field_name": "busco_string",
+            "field_name": "busco_string_primary",
             "form_placeholder": "",
-            "label": "busco_string"
+            "label": "busco_string_primary"
+        },
+        {
+            "field_name": "busco_string_secondary",
+            "form_placeholder": "",
+            "label": "busco_string_secondary"
         },
         {
             "field_name": "ccg_jira_ticket",
