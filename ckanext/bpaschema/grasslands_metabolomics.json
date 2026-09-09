@@ -88,21 +88,6 @@
             "label": "accession_number_seed"
         },
         {
-            "field_name": "acquisition_mode",
-            "form_placeholder": "",
-            "label": "acquisition_mode"
-        },
-        {
-            "field_name": "analysis_type",
-            "form_placeholder": "",
-            "label": "analysis_type"
-        },
-        {
-            "field_name": "analytical_platform",
-            "form_placeholder": "",
-            "label": "analytical_platform"
-        },
-        {
             "field_name": "base_url",
             "form_placeholder": "",
             "label": "base_url"
@@ -123,11 +108,6 @@
             "label": "bpa_dataset_id"
         },
         {
-            "field_name": "carrier_gas",
-            "form_placeholder": "",
-            "label": "carrier_gas"
-        },
-        {
             "field_name": "collected_by",
             "form_placeholder": "",
             "label": "collected_by"
@@ -143,9 +123,14 @@
             "label": "common_name"
         },
         {
-            "field_name": "country",
+            "field_name": "contact_person",
             "form_placeholder": "",
-            "label": "country"
+            "label": "contact_person"
+        },
+        {
+            "field_name": "data_analysis_date",
+            "form_placeholder": "",
+            "label": "data_analysis_date"
         },
         {
             "field_name": "data_type",
@@ -208,21 +193,6 @@
             "label": "folder_name"
         },
         {
-            "field_name": "gc_column_type",
-            "form_placeholder": "",
-            "label": "gc_column_type"
-        },
-        {
-            "field_name": "growth_condition",
-            "form_placeholder": "",
-            "label": "growth_condition"
-        },
-        {
-            "field_name": "growth_facility",
-            "form_placeholder": "",
-            "label": "growth_facility"
-        },
-        {
             "field_name": "herbarium_code",
             "form_placeholder": "",
             "label": "herbarium_code"
@@ -236,11 +206,6 @@
             "field_name": "id_vetting_date",
             "form_placeholder": "",
             "label": "id_vetting_date"
-        },
-        {
-            "field_name": "ionisation_type",
-            "form_placeholder": "",
-            "label": "ionisation_type"
         },
         {
             "field_name": "latitude",
@@ -261,11 +226,6 @@
             "field_name": "longitude",
             "form_placeholder": "",
             "label": "longitude"
-        },
-        {
-            "field_name": "mass_spectrometer",
-            "form_placeholder": "",
-            "label": "mass_spectrometer"
         },
         {
             "field_name": "metabolomics_facility",
@@ -343,16 +303,6 @@
             "label": "project_aim"
         },
         {
-            "field_name": "sample_fractionation_extraction_solvent",
-            "form_placeholder": "",
-            "label": "sample_fractionation_extraction_solvent"
-        },
-        {
-            "field_name": "sample_id",
-            "form_placeholder": "",
-            "label": "sample_id"
-        },
-        {
             "field_name": "sample_material_associated_references",
             "form_placeholder": "",
             "label": "sample_material_associated_references"
@@ -376,11 +326,6 @@
             "field_name": "sample_material_prepared_by",
             "form_placeholder": "",
             "label": "sample_material_prepared_by"
-        },
-        {
-            "field_name": "sample_replicate",
-            "form_placeholder": "",
-            "label": "sample_replicate"
         },
         {
             "field_name": "sample_submission_date",
@@ -408,11 +353,6 @@
             "label": "species_complex"
         },
         {
-            "field_name": "state_or_territory",
-            "form_placeholder": "",
-            "label": "state_or_territory"
-        },
-        {
             "field_name": "taxon_id",
             "form_placeholder": "",
             "label": "taxon_id"
@@ -426,11 +366,6 @@
             "field_name": "team_lead_name",
             "form_placeholder": "",
             "label": "team_lead_name"
-        },
-        {
-            "field_name": "temperature_gradient",
-            "form_placeholder": "",
-            "label": "temperature_gradient"
         },
         {
             "field_name": "ticket",
