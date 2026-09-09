@@ -613,6 +613,11 @@
             "label": "project_lead"
         },
         {
+            "field_name": "reuse_preferences",
+            "form_placeholder": "",
+            "label": "reuse_preferences"
+        },
+        {
             "field_name": "sample_collection_type",
             "form_placeholder": "",
             "label": "sample_collection_type"
