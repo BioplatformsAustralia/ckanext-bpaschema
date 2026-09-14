@@ -173,6 +173,11 @@
             "label": "experimental_notes"
         },
         {
+            "field_name": "extraction_protocol_doi",
+            "form_placeholder": "",
+            "label": "extraction_protocol_doi"
+        },
+        {
             "field_name": "facility_project_code",
             "form_placeholder": "",
             "label": "facility_project_code"
@@ -253,6 +258,11 @@
             "label": "nagoya_protocol_permit_number"
         },
         {
+            "field_name": "nucleic_acid_ng",
+            "form_placeholder": "",
+            "label": "nucleic_acid_ng"
+        },
+        {
             "field_name": "plant_developmental_stage",
             "form_placeholder": "",
             "label": "plant_developmental_stage"
@@ -301,6 +311,11 @@
             "field_name": "project_aim",
             "form_placeholder": "",
             "label": "project_aim"
+        },
+        {
+            "field_name": "reuse_preferences",
+            "form_placeholder": "",
+            "label": "reuse_preferences"
         },
         {
             "field_name": "sample_material_associated_references",
