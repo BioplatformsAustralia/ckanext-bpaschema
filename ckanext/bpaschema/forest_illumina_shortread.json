@@ -273,6 +273,11 @@
             "label": "experimental_design"
         },
         {
+            "field_name": "extraction_protocol_doi",
+            "form_placeholder": "",
+            "label": "extraction_protocol_doi"
+        },
+        {
             "field_name": "facility",
             "form_placeholder": "",
             "label": "facility"
@@ -523,6 +528,11 @@
             "label": "note"
         },
         {
+            "field_name": "nucleic_acid_ng",
+            "form_placeholder": "",
+            "label": "nucleic_acid_ng"
+        },
+        {
             "field_name": "order",
             "form_placeholder": "",
             "label": "order"
@@ -546,6 +556,11 @@
             "field_name": "project_lead",
             "form_placeholder": "",
             "label": "project_lead"
+        },
+        {
+            "field_name": "reuse_preferences",
+            "form_placeholder": "",
+            "label": "reuse_preferences"
         },
         {
             "field_name": "run_format",
@@ -795,6 +810,10 @@
         {
             "field_name": "index",
             "label": "index"
+        },
+        {
+            "field_name": "lane",
+            "label": "lane"
         },
         {
             "field_name": "library_id",
