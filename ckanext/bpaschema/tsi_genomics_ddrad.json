@@ -153,11 +153,6 @@
             "label": "cell_postion"
         },
         {
-            "field_name": "certainty",
-            "form_placeholder": "",
-            "label": "certainty"
-        },
-        {
             "field_name": "class",
             "form_placeholder": "",
             "label": "class"
@@ -171,6 +166,11 @@
             "field_name": "collection_method",
             "form_placeholder": "",
             "label": "collection_method"
+        },
+        {
+            "field_name": "collection_permit",
+            "form_placeholder": "",
+            "label": "collection_permit"
         },
         {
             "field_name": "collector",
@@ -263,6 +263,11 @@
             "label": "experimental_design"
         },
         {
+            "field_name": "extraction_protocol_doi",
+            "form_placeholder": "",
+            "label": "extraction_protocol_doi"
+        },
+        {
             "field_name": "facility_project_code",
             "form_placeholder": "",
             "label": "facility_project_code"
@@ -321,6 +326,16 @@
             "field_name": "health_state",
             "form_placeholder": "",
             "label": "health_state"
+        },
+        {
+            "field_name": "identified_by",
+            "form_placeholder": "",
+            "label": "identified_by"
+        },
+        {
+            "field_name": "indigenous_location",
+            "form_placeholder": "",
+            "label": "indigenous_location"
         },
         {
             "field_name": "insert_size_range",
@@ -493,9 +508,9 @@
             "label": "metadata_revision_filename"
         },
         {
-            "field_name": "method_of_determination",
+            "field_name": "method_sex_determination",
             "form_placeholder": "",
-            "label": "method_of_determination"
+            "label": "method_sex_determination"
         },
         {
             "field_name": "model_base_caller",
@@ -511,6 +526,11 @@
             "field_name": "n_libraries_pooled",
             "form_placeholder": "",
             "label": "n_libraries_pooled"
+        },
+        {
+            "field_name": "nucleic_acid_ng",
+            "form_placeholder": "",
+            "label": "nucleic_acid_ng"
         },
         {
             "field_name": "order",
@@ -531,6 +551,11 @@
             "field_name": "prior_genetics",
             "form_placeholder": "",
             "label": "prior_genetics"
+        },
+        {
+            "field_name": "reuse_preferences",
+            "form_placeholder": "",
+            "label": "reuse_preferences"
         },
         {
             "field_name": "sample_custodian",
@@ -583,6 +608,11 @@
             "label": "sequencing_platform"
         },
         {
+            "field_name": "sex_certainty",
+            "form_placeholder": "",
+            "label": "sex_certainty"
+        },
+        {
             "field_name": "source_population",
             "form_placeholder": "",
             "label": "source_population"
@@ -591,6 +621,11 @@
             "field_name": "species",
             "form_placeholder": "",
             "label": "species"
+        },
+        {
+            "field_name": "specimen_custodian",
+            "form_placeholder": "",
+            "label": "specimen_custodian"
         },
         {
             "field_name": "specimen_id",
