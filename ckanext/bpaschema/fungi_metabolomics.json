@@ -238,6 +238,11 @@
             "label": "env_medium"
         },
         {
+            "field_name": "extraction_protocol_doi",
+            "form_placeholder": "",
+            "label": "extraction_protocol_doi"
+        },
+        {
             "field_name": "facility_project_code",
             "form_placeholder": "",
             "label": "facility_project_code"
@@ -378,6 +383,11 @@
             "label": "mobile_phase_composition"
         },
         {
+            "field_name": "nucleic_acid_ng",
+            "form_placeholder": "",
+            "label": "nucleic_acid_ng"
+        },
+        {
             "field_name": "omics_facility",
             "form_placeholder": "",
             "label": "omics_facility"
@@ -401,6 +411,11 @@
             "field_name": "project_lead",
             "form_placeholder": "",
             "label": "project_lead"
+        },
+        {
+            "field_name": "reuse_preferences",
+            "form_placeholder": "",
+            "label": "reuse_preferences"
         },
         {
             "field_name": "sample_collection_type",
@@ -441,6 +456,11 @@
             "field_name": "sample_prep_protocol",
             "form_placeholder": "",
             "label": "sample_prep_protocol"
+        },
+        {
+            "field_name": "sample_preparation_comments",
+            "form_placeholder": "",
+            "label": "sample_preparation_comments"
         },
         {
             "field_name": "sample_prepared_by",
